@@ -1,0 +1,59 @@
+# Automatically generated .gitignore
+# Excludes logs, cache, binaries, and temporary files
+# Keeps repository focused on source code
+
+# Logs
+*.log
+logs/
+*.log.*
+Squirrel-*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Executables (except source)
+Update.exe
+*.exe
+*.dll
+
+# Application binaries (but keep .asar archives)
+app-0.14.7/
+app-0.14.10/
+app-1.0.211/
+packages/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# IDE
+.vscode/settings.json.backup
+.idea/
+*.sublime-workspace
+
+# Environment
+.env
+.env.local
+
+# Node modules
+node_modules/
+
+# Keep important files even if they match patterns above
+!.gitignore
+!.github/
+!.editorconfig
