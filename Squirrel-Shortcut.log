@@ -1,0 +1,67 @@
+﻿[17/10/25 10:54:51] info: Program: Starting Squirrel Updater: --createShortcut=claude.exe
+[17/10/25 10:54:51] info: ApplyReleasesImpl: About to create shortcuts for claude.exe, rootAppDir C:\Users\Someone\AppData\Local\AnthropicClaude
+[17/10/25 10:54:51] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk
+[17/10/25 10:54:51] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.13.64, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[17/10/25 10:54:51] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\Desktop\Claude.lnk
+[17/10/25 10:54:51] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\Desktop\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.13.64, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[17/10/25 10:54:51] info: Program: Finished Squirrel Updater
+[17/10/25 16:12:25] info: Program: Starting Squirrel Updater: --createShortcut=claude.exe
+[17/10/25 16:12:25] info: ApplyReleasesImpl: About to create shortcuts for claude.exe, rootAppDir C:\Users\Someone\AppData\Local\AnthropicClaude
+[17/10/25 16:12:25] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk
+[17/10/25 16:12:25] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.13.108, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[17/10/25 16:12:25] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\Desktop\Claude.lnk
+[17/10/25 16:12:25] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\Desktop\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.13.108, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[17/10/25 16:12:25] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[17/10/25 16:12:25] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[17/10/25 16:12:25] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[17/10/25 16:12:25] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[17/10/25 16:12:25] info: ApplyReleasesImpl: Finished shortcut successfully
+[17/10/25 16:12:25] info: Program: Finished Squirrel Updater
+[21/10/25 21:45:52] info: Program: Starting Squirrel Updater: --createShortcut=claude.exe
+[21/10/25 21:45:52] info: ApplyReleasesImpl: About to create shortcuts for claude.exe, rootAppDir C:\Users\Someone\AppData\Local\AnthropicClaude
+[21/10/25 21:45:52] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk
+[21/10/25 21:45:52] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.4, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[21/10/25 21:45:52] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\Desktop\Claude.lnk
+[21/10/25 21:45:52] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\Desktop\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.4, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[21/10/25 21:45:53] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[21/10/25 21:45:53] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[21/10/25 21:45:53] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[21/10/25 21:45:53] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[21/10/25 21:45:53] info: ApplyReleasesImpl: Finished shortcut successfully
+[21/10/25 21:45:53] info: Program: Finished Squirrel Updater
+[28/10/25 16:02:20] info: Program: Starting Squirrel Updater: --createShortcut=claude.exe
+[28/10/25 16:02:20] info: ApplyReleasesImpl: About to create shortcuts for claude.exe, rootAppDir C:\Users\Someone\AppData\Local\AnthropicClaude
+[28/10/25 16:02:20] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk
+[28/10/25 16:02:20] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.7, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[28/10/25 16:02:20] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\Desktop\Claude.lnk
+[28/10/25 16:02:20] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\Desktop\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.7, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[28/10/25 16:02:21] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[28/10/25 16:02:21] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 16:02:21] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 16:02:21] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 16:02:21] info: ApplyReleasesImpl: Finished shortcut successfully
+[28/10/25 16:02:21] info: Program: Finished Squirrel Updater
+[28/10/25 21:19:53] info: Program: Starting Squirrel Updater: --createShortcut=claude.exe
+[28/10/25 21:19:53] info: ApplyReleasesImpl: About to create shortcuts for claude.exe, rootAppDir C:\Users\Someone\AppData\Local\AnthropicClaude
+[28/10/25 21:19:53] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk
+[28/10/25 21:19:53] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.10, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[28/10/25 21:19:53] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\Desktop\Claude.lnk
+[28/10/25 21:19:53] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\Desktop\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.10, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[28/10/25 21:19:54] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[28/10/25 21:19:54] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 21:19:54] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 21:19:54] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 21:19:54] info: ApplyReleasesImpl: Finished shortcut successfully
+[28/10/25 21:19:54] info: Program: Finished Squirrel Updater
+[31/10/25 21:50:24] info: Program: Starting Squirrel Updater: --createShortcut=claude.exe
+[31/10/25 21:50:24] info: ApplyReleasesImpl: About to create shortcuts for claude.exe, rootAppDir C:\Users\Someone\AppData\Local\AnthropicClaude
+[31/10/25 21:50:24] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk
+[31/10/25 21:50:24] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anthropic\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-1.0.211, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[31/10/25 21:50:24] info: ApplyReleasesImpl: Creating shortcut for claude.exe => C:\Users\Someone\Desktop\Claude.lnk
+[31/10/25 21:50:24] info: ApplyReleasesImpl: About to save shortcut: C:\Users\Someone\Desktop\Claude.lnk (target C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe, workingDir C:\Users\Someone\AppData\Local\AnthropicClaude\app-1.0.211, args , toastActivatorCSLID 2de14dcd-9e28-5a25-a37a-0ad1aa6acf47)
+[31/10/25 21:50:24] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[31/10/25 21:50:24] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[31/10/25 21:50:24] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[31/10/25 21:50:24] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[31/10/25 21:50:24] info: ApplyReleasesImpl: Finished shortcut successfully
+[31/10/25 21:50:24] info: Program: Finished Squirrel Updater

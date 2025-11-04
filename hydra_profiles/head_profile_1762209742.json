@@ -1,0 +1,324 @@
+{
+  "timestamp": "2025-11-03T17:42:22.784459",
+  "test_summary": {
+    "total_heads": 15,
+    "profiled_heads": 15
+  },
+  "heads": {
+    "COORDINATOR": {
+      "head_name": "COORDINATOR",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 7.390975952148438e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00012990393032674116
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "ANALYST": {
+      "head_name": "ANALYST",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 6.67572021484375e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00012255791611318892
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "EXECUTOR": {
+      "head_name": "EXECUTOR",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 8.344650268554688e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00012848174386876092
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "GUARDIAN": {
+      "head_name": "GUARDIAN",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 7.62939453125e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.0001262502448272866
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "ARCHITECT": {
+      "head_name": "ARCHITECT",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 7.62939453125e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.0001262502448272866
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "MEDIATOR": {
+      "head_name": "MEDIATOR",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 4.291534423828125e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 9.809785364609735e-05
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "SENTINEL": {
+      "head_name": "SENTINEL",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 5.4836273193359375e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00011164837586374257
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "SYNTHESIZER": {
+      "head_name": "SYNTHESIZER",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 5.9604644775390625e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00010915196252402485
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "NAVIGATOR": {
+      "head_name": "NAVIGATOR",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 6.67572021484375e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00012255791611318892
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "RESEARCHER": {
+      "head_name": "RESEARCHER",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.0007152557373046875,
+        "mean_ms": 6.437301635742188e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.0001261364955972115
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "COMMUNICATOR": {
+      "head_name": "COMMUNICATOR",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 5.0067901611328125e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00010331471761067708
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "CATALYST": {
+      "head_name": "CATALYST",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 5.4836273193359375e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.0001063814266534981
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "INNOVATOR": {
+      "head_name": "INNOVATOR",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 7.390975952148438e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00012074074424973098
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "ORACLE": {
+      "head_name": "ORACLE",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 6.67572021484375e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.00012715657552083334
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    },
+    "STRATEGIST": {
+      "head_name": "STRATEGIST",
+      "test_count": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "latency": {
+        "min_ms": 0.0,
+        "max_ms": 0.000476837158203125,
+        "mean_ms": 5.4836273193359375e-05,
+        "median_ms": 0.0,
+        "stdev_ms": 0.0001063814266534981
+      },
+      "confidence": {
+        "min": 0.65,
+        "max": 0.65,
+        "mean": 0.65,
+        "median": 0.65,
+        "stdev": 0.0
+      }
+    }
+  },
+  "analysis": {
+    "confidence_variance": 0.0,
+    "confidence_stdev": 0.0,
+    "latency_variance": 1.2911576569812107e-10,
+    "latency_stdev": 1.1362911849438993e-05,
+    "confidence_range": [
+      0.65,
+      0.65
+    ],
+    "latency_range_ms": [
+      4.291534423828125e-05,
+      8.344650268554688e-05
+    ]
+  },
+  "recommendations": []
+}

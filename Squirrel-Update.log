@@ -1,0 +1,651 @@
+﻿[17/10/25 16:11:47] info: Program: Starting Squirrel Updater: --update https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 16:11:47] info: Program: Starting update, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 16:11:47] info: Program: About to update to: C:\Users\Someone\AppData\Local\AnthropicClaude
+[17/10/25 16:11:47] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 16:11:47] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 16:11:47] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 16:11:47] info: FileDownloader: Downloading file: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/AnthropicClaude-0.13.108-delta.nupkg
+[17/10/25 16:11:52] info: DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+[17/10/25 16:11:52] info: DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+[17/10/25 16:11:52] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\claude.exe.bsdiff
+[17/10/25 16:11:54] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\claude_ExecutionStub.exe.diff
+[17/10/25 16:11:54] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\d3dcompiler_47.dll.diff
+[17/10/25 16:11:54] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+[17/10/25 16:11:54] info: DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+[17/10/25 16:11:54] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+[17/10/25 16:11:54] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vk_swiftshader.dll.diff
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\vk_swiftshader_icd.json.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vulkan-1.dll.diff
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\af.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\ur.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+[17/10/25 16:11:55] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\app.asar.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\claude-screen-dark.png.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\claude-screen.png.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\de-DE.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\en-US.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\en-XA.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\en-XB.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\es-419.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\es-ES.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\fr-FR.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\hi-IN.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\id-ID.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\it-IT.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\ja-JP.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\ko-KR.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\pt-BR.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32-Dark.ico.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32.ico.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark.png.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@2x.png.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@3x.png.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate.png.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@2x.png.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@3x.png.diff exists unchanged, skipping
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-AC.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-HA.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-LS.json.bsdiff
+[17/10/25 16:11:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\resources\app.asar.unpacked\node_modules\claude-native\claude-native-binding.node.diff
+[17/10/25 16:12:00] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[17/10/25 16:12:00] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[17/10/25 16:12:00] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[17/10/25 16:12:00] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[17/10/25 16:12:00] info: DeltaPackageBuilder: Updating metadata file: AnthropicClaude.nuspec
+[17/10/25 16:12:00] info: DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+[17/10/25 16:12:00] info: DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\cc575e1f05f34f24b48e6865c487cff8.psmdcp
+[17/10/25 16:12:00] info: DeltaPackageBuilder: Updating metadata file: _rels\.rels
+[17/10/25 16:12:00] info: DeltaPackageBuilder: Repacking into full package: C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.13.108.nupkg
+[17/10/25 16:12:19] info: ApplyReleasesImpl: Writing files to app directory: C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.13.108
+[17/10/25 16:12:21] info: LogHost: Rigging execution stub for claude_ExecutionStub.exe to C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe
+[17/10/25 16:12:23] info: ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.13.108\claude.exe]
+[17/10/25 16:12:28] info: ApplyReleasesImpl: Starting fixPinnedExecutables
+[17/10/25 16:12:28] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[17/10/25 16:12:28] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[17/10/25 16:12:28] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[17/10/25 16:12:28] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[17/10/25 16:12:28] info: ApplyReleasesImpl: Finished shortcut successfully
+[17/10/25 16:12:28] info: ApplyReleasesImpl: Fixing up tray icons
+[17/10/25 16:12:28] info: ApplyReleasesImpl: cleanDeadVersions: checking for version 0.13.108
+[17/10/25 16:12:28] info: ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-0.13.64
+[17/10/25 16:12:28] info: ApplyReleasesImpl: cleanDeadVersions: exclude new version folder app-0.13.108
+[17/10/25 16:12:28] info: Program: Finished Squirrel Updater
+[21/10/25 21:45:07] info: Program: Starting Squirrel Updater: --update https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:45:07] info: Program: Starting update, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:45:07] info: Program: About to update to: C:\Users\Someone\AppData\Local\AnthropicClaude
+[21/10/25 21:45:07] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[21/10/25 21:45:08] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:45:08] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[21/10/25 21:45:08] info: FileDownloader: Downloading file: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/AnthropicClaude-0.14.4-delta.nupkg
+[21/10/25 21:45:12] info: DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+[21/10/25 21:45:12] info: DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+[21/10/25 21:45:12] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\claude.exe.bsdiff
+[21/10/25 21:45:16] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\claude_ExecutionStub.exe.diff
+[21/10/25 21:45:16] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\d3dcompiler_47.dll.diff
+[21/10/25 21:45:16] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+[21/10/25 21:45:16] info: DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+[21/10/25 21:45:16] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+[21/10/25 21:45:16] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+[21/10/25 21:45:16] info: DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+[21/10/25 21:45:16] info: DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+[21/10/25 21:45:16] info: DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+[21/10/25 21:45:16] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+[21/10/25 21:45:16] info: DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+[21/10/25 21:45:16] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vk_swiftshader.dll.diff
+[21/10/25 21:45:16] info: DeltaPackageBuilder: lib\net45\vk_swiftshader_icd.json.diff exists unchanged, skipping
+[21/10/25 21:45:16] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vulkan-1.dll.diff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\af.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\ur.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\app.asar.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\resources\claude-screen-dark.png.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: lib\net45\resources\claude-screen.png.diff exists unchanged, skipping
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\de-DE.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\en-US.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Adding new file: lib\net45\resources\en-XA.json
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\en-XB.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\es-419.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\es-ES.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\fr-FR.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\hi-IN.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\id-ID.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\it-IT.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\ja-JP.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\ko-KR.json.bsdiff
+[21/10/25 21:45:17] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\pt-BR.json.bsdiff
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32-Dark.ico.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32.ico.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark.png.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@2x.png.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@3x.png.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate.png.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@2x.png.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@3x.png.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-AC.json.bsdiff
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-HA.json.bsdiff
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-LS.json.bsdiff
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\resources\app.asar.unpacked\node_modules\claude-native\claude-native-binding.node.diff
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Updating metadata file: AnthropicClaude.nuspec
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\75c86393332447329b71666bfaa7580d.psmdcp
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Updating metadata file: _rels\.rels
+[21/10/25 21:45:18] info: DeltaPackageBuilder: Repacking into full package: C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.4.nupkg
+[21/10/25 21:45:46] info: ApplyReleasesImpl: Writing files to app directory: C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.4
+[21/10/25 21:45:48] info: LogHost: Rigging execution stub for claude_ExecutionStub.exe to C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe
+[21/10/25 21:45:50] info: ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.4\claude.exe]
+[21/10/25 21:45:58] info: ApplyReleasesImpl: Starting fixPinnedExecutables
+[21/10/25 21:45:58] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[21/10/25 21:45:58] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[21/10/25 21:45:58] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[21/10/25 21:45:58] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[21/10/25 21:45:58] info: ApplyReleasesImpl: Finished shortcut successfully
+[21/10/25 21:45:58] info: ApplyReleasesImpl: Fixing up tray icons
+[21/10/25 21:45:58] info: ApplyReleasesImpl: cleanDeadVersions: checking for version 0.14.4
+[21/10/25 21:45:58] info: ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-0.13.108
+[21/10/25 21:45:58] info: ApplyReleasesImpl: cleanDeadVersions: exclude new version folder app-0.14.4
+[21/10/25 21:46:03] info: Program: Finished Squirrel Updater
+[28/10/25 16:01:51] info: Program: Starting Squirrel Updater: --update https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:01:51] info: Program: Starting update, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:01:51] info: Program: About to update to: C:\Users\Someone\AppData\Local\AnthropicClaude
+[28/10/25 16:01:51] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[28/10/25 16:01:51] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:01:51] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[28/10/25 16:01:51] info: FileDownloader: Downloading file: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/AnthropicClaude-0.14.7-delta.nupkg
+[28/10/25 16:01:55] info: DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+[28/10/25 16:01:55] info: DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+[28/10/25 16:01:55] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\claude.exe.bsdiff
+[28/10/25 16:01:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\claude_ExecutionStub.exe.diff
+[28/10/25 16:01:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\d3dcompiler_47.dll.diff
+[28/10/25 16:01:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+[28/10/25 16:01:59] info: DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+[28/10/25 16:01:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+[28/10/25 16:01:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+[28/10/25 16:01:59] info: DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+[28/10/25 16:01:59] info: DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+[28/10/25 16:01:59] info: DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+[28/10/25 16:01:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+[28/10/25 16:01:59] info: DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+[28/10/25 16:01:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vk_swiftshader.dll.diff
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\vk_swiftshader_icd.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vulkan-1.dll.diff
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\af.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\ur.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\app.asar.bsdiff
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\claude-screen-dark.png.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\claude-screen.png.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\de-DE.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\en-US.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\en-XA.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\en-XB.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\es-419.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\es-ES.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\fr-FR.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\hi-IN.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\id-ID.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\it-IT.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\ja-JP.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\ko-KR.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\pt-BR.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32-Dark.ico.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32.ico.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark.png.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@2x.png.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@3x.png.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate.png.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@2x.png.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@3x.png.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\xx-AC.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\xx-HA.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\xx-LS.json.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\resources\app.asar.unpacked\node_modules\claude-native\claude-native-binding.node.diff
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[28/10/25 16:02:00] info: DeltaPackageBuilder: Updating metadata file: AnthropicClaude.nuspec
+[28/10/25 16:02:00] info: DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+[28/10/25 16:02:00] info: DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\8272b60d7dd04a42b5fa175ce6414f4f.psmdcp
+[28/10/25 16:02:00] info: DeltaPackageBuilder: Updating metadata file: _rels\.rels
+[28/10/25 16:02:00] info: DeltaPackageBuilder: Repacking into full package: C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.7.nupkg
+[28/10/25 16:02:16] info: ApplyReleasesImpl: Writing files to app directory: C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.7
+[28/10/25 16:02:17] info: LogHost: Rigging execution stub for claude_ExecutionStub.exe to C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe
+[28/10/25 16:02:19] info: ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.7\claude.exe]
+[28/10/25 16:02:25] info: ApplyReleasesImpl: Starting fixPinnedExecutables
+[28/10/25 16:02:25] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[28/10/25 16:02:25] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 16:02:25] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 16:02:25] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 16:02:25] info: ApplyReleasesImpl: Finished shortcut successfully
+[28/10/25 16:02:25] info: ApplyReleasesImpl: Fixing up tray icons
+[28/10/25 16:02:25] info: ApplyReleasesImpl: cleanDeadVersions: checking for version 0.14.7
+[28/10/25 16:02:25] info: ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-0.14.4
+[28/10/25 16:02:25] info: ApplyReleasesImpl: cleanDeadVersions: exclude new version folder app-0.14.7
+[28/10/25 16:02:28] info: Program: Finished Squirrel Updater
+[28/10/25 21:19:23] info: Program: Starting Squirrel Updater: --update https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 21:19:23] info: Program: Starting update, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 21:19:23] info: Program: About to update to: C:\Users\Someone\AppData\Local\AnthropicClaude
+[28/10/25 21:19:23] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[28/10/25 21:19:23] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 21:19:23] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.7&arch=amd64
+[28/10/25 21:19:24] info: FileDownloader: Downloading file: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/AnthropicClaude-0.14.10-delta.nupkg
+[28/10/25 21:19:27] info: DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+[28/10/25 21:19:27] info: DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+[28/10/25 21:19:27] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\claude.exe.bsdiff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\claude_ExecutionStub.exe.diff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\d3dcompiler_47.dll.diff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vk_swiftshader.dll.diff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\vk_swiftshader_icd.json.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vulkan-1.dll.diff
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\af.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\ur.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+[28/10/25 21:19:30] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\app.asar.bsdiff
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\claude-screen-dark.png.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\claude-screen.png.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\de-DE.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\en-US.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\en-XA.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\en-XB.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\es-419.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\es-ES.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\fr-FR.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\hi-IN.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\id-ID.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\it-IT.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\ja-JP.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\ko-KR.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\pt-BR.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32-Dark.ico.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32.ico.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark.png.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@2x.png.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@3x.png.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate.png.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@2x.png.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@3x.png.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\xx-AC.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\xx-HA.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\xx-LS.json.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\resources\app.asar.unpacked\node_modules\claude-native\claude-native-binding.node.diff
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[28/10/25 21:19:31] info: DeltaPackageBuilder: Updating metadata file: AnthropicClaude.nuspec
+[28/10/25 21:19:31] info: DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+[28/10/25 21:19:31] info: DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\eb7db27a9a4a42179faa55df48fe62a0.psmdcp
+[28/10/25 21:19:31] info: DeltaPackageBuilder: Updating metadata file: _rels\.rels
+[28/10/25 21:19:31] info: DeltaPackageBuilder: Repacking into full package: C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.10.nupkg
+[28/10/25 21:19:49] info: ApplyReleasesImpl: Writing files to app directory: C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.10
+[28/10/25 21:19:50] info: LogHost: Rigging execution stub for claude_ExecutionStub.exe to C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe
+[28/10/25 21:19:52] info: ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\Someone\AppData\Local\AnthropicClaude\app-0.14.10\claude.exe]
+[28/10/25 21:19:58] info: ApplyReleasesImpl: Starting fixPinnedExecutables
+[28/10/25 21:19:58] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[28/10/25 21:19:58] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 21:19:58] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 21:19:58] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[28/10/25 21:19:58] info: ApplyReleasesImpl: Finished shortcut successfully
+[28/10/25 21:19:58] info: ApplyReleasesImpl: Fixing up tray icons
+[28/10/25 21:19:58] info: ApplyReleasesImpl: cleanDeadVersions: checking for version 0.14.10
+[28/10/25 21:19:58] info: ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-0.14.7
+[28/10/25 21:19:58] info: ApplyReleasesImpl: cleanDeadVersions: exclude new version folder app-0.14.10
+[28/10/25 21:20:03] info: Program: Finished Squirrel Updater
+[31/10/25 21:49:47] info: Program: Starting Squirrel Updater: --update https://downloads.claude.ai/releases/win32/x64
+[31/10/25 21:49:47] info: Program: Starting update, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 21:49:47] info: Program: About to update to: C:\Users\Someone\AppData\Local\AnthropicClaude
+[31/10/25 21:49:47] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 21:49:47] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 21:49:47] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 21:49:47] info: FileDownloader: Downloading file: https://downloads.claude.ai/releases/win32/x64/AnthropicClaude-1.0.211-delta.nupkg
+[31/10/25 21:49:52] info: DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+[31/10/25 21:49:52] info: DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+[31/10/25 21:49:55] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\claude.exe.bsdiff
+[31/10/25 21:49:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\claude_ExecutionStub.exe.diff
+[31/10/25 21:49:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\d3dcompiler_47.dll.diff
+[31/10/25 21:49:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+[31/10/25 21:49:59] info: DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+[31/10/25 21:49:59] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+[31/10/25 21:50:00] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vk_swiftshader.dll.diff
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\vk_swiftshader_icd.json.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: Applying MSDiff to lib\net45\vulkan-1.dll.diff
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\af.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\ur.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+[31/10/25 21:50:00] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\app.asar.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\claude-screen-dark.png.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\claude-screen.png.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\de-DE.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\en-US.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\en-XA.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\en-XB.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\es-419.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\es-ES.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\fr-FR.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\hi-IN.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\id-ID.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\it-IT.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\ja-JP.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\ko-KR.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\pt-BR.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32-Dark.ico.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\Tray-Win32.ico.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark.png.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@2x.png.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate-Dark@3x.png.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate.png.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@2x.png.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\TrayIconTemplate@3x.png.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-AC.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-HA.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\xx-LS.json.bsdiff
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Adding new file: lib\net45\resources\app.asar.unpacked\node_modules\@ant\claude-native\claude-native-binding.node
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSans-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Italics-Variable-25x258.ttf.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\fonts\AnthropicSerif-Romans-Variable-25x258.ttf.diff exists unchanged, skipping
+[31/10/25 21:50:01] info: DeltaPackageBuilder: lib\net45\resources\app.asar.unpacked\node_modules\claude-native\claude-native-binding.node was in old package but not in new one, deleting
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Updating metadata file: AnthropicClaude.nuspec
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\e1a44e4272eb4d84a4e2ef29ec3715a3.psmdcp
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Updating metadata file: _rels\.rels
+[31/10/25 21:50:01] info: DeltaPackageBuilder: Repacking into full package: C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-1.0.211.nupkg
+[31/10/25 21:50:18] info: ApplyReleasesImpl: Writing files to app directory: C:\Users\Someone\AppData\Local\AnthropicClaude\app-1.0.211
+[31/10/25 21:50:20] info: LogHost: Rigging execution stub for claude_ExecutionStub.exe to C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe
+[31/10/25 21:50:22] info: ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\Someone\AppData\Local\AnthropicClaude\app-1.0.211\claude.exe]
+[31/10/25 21:50:28] info: ApplyReleasesImpl: Starting fixPinnedExecutables
+[31/10/25 21:50:28] info: ApplyReleasesImpl: Processing shortcut 'C:\Users\Someone\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Claude.lnk'
+[31/10/25 21:50:28] info: ApplyReleasesImpl: Old shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[31/10/25 21:50:28] info: ApplyReleasesImpl: New shortcut target: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[31/10/25 21:50:28] info: ApplyReleasesImpl: Old iconPath is: 'C:\Users\Someone\AppData\Local\AnthropicClaude\claude.exe'
+[31/10/25 21:50:28] info: ApplyReleasesImpl: Finished shortcut successfully
+[31/10/25 21:50:28] info: ApplyReleasesImpl: Fixing up tray icons
+[31/10/25 21:50:28] info: ApplyReleasesImpl: cleanDeadVersions: checking for version 1.0.211
+[31/10/25 21:50:28] info: ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-0.14.10
+[31/10/25 21:50:28] info: ApplyReleasesImpl: cleanDeadVersions: exclude new version folder app-1.0.211
+[31/10/25 21:50:34] info: Program: Finished Squirrel Updater

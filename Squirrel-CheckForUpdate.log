@@ -1,0 +1,1408 @@
+﻿[17/10/25 10:54:51] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 10:54:51] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 10:54:51] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 10:54:51] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 10:54:51] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 10:54:52] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 10:54:52] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 10:54:52] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 10:54:52] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 10:54:53] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 10:54:53] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 10:54:53] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 10:54:53] info: CheckForUpdateImpl: Generated new staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 10:54:53] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 10:54:54] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 10:54:54] info: Program: Finished Squirrel Updater
+[17/10/25 10:59:15] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 10:59:15] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 10:59:15] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 10:59:15] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 10:59:15] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 10:59:16] info: Program: Finished Squirrel Updater
+[17/10/25 11:03:56] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:03:56] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:03:56] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 11:03:56] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:03:56] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 11:03:57] info: Program: Finished Squirrel Updater
+[17/10/25 11:29:15] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:29:15] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:29:15] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 11:29:15] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:29:15] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 11:29:16] info: Program: Finished Squirrel Updater
+[17/10/25 11:31:02] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:31:02] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:31:02] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 11:31:02] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:31:02] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 11:31:02] info: Program: Finished Squirrel Updater
+[17/10/25 11:56:56] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:56:56] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:56:56] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 11:56:56] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:56:56] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 11:56:56] info: Program: Finished Squirrel Updater
+[17/10/25 11:59:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:59:26] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:59:26] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 11:59:26] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 11:59:27] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 11:59:27] info: Program: Finished Squirrel Updater
+[17/10/25 12:34:12] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 12:34:12] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 12:34:12] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 12:34:12] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 12:34:12] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 12:34:13] info: Program: Finished Squirrel Updater
+[17/10/25 16:11:46] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 16:11:46] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 16:11:47] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 16:11:47] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 16:11:47] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.64&arch=amd64
+[17/10/25 16:11:47] warn: UpdateInfo: Couldn't get release notes for:AnthropicClaude-0.13.108-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.13.108-delta.nupkg'.
+File name: 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.13.108-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[17/10/25 16:11:47] info: Program: Finished Squirrel Updater
+[17/10/25 16:12:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 16:12:26] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 16:12:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 16:12:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 16:12:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 16:12:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 16:12:27] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 16:12:27] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 16:12:27] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 16:12:28] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[17/10/25 18:07:11] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:07:11] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:07:11] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 18:07:11] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:07:11] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[17/10/25 18:07:11] info: Program: Finished Squirrel Updater
+[17/10/25 18:27:08] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:27:08] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:27:08] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 18:27:08] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:27:08] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[17/10/25 18:27:08] info: Program: Finished Squirrel Updater
+[17/10/25 18:36:20] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:36:20] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:36:20] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 18:36:20] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:36:20] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[17/10/25 18:36:20] info: Program: Finished Squirrel Updater
+[17/10/25 18:45:17] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:45:17] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:45:17] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 18:45:17] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 18:45:17] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[17/10/25 18:45:17] info: Program: Finished Squirrel Updater
+[17/10/25 20:35:33] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 20:35:33] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 20:35:33] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 20:35:33] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 20:35:33] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[17/10/25 20:35:33] info: Program: Finished Squirrel Updater
+[17/10/25 21:45:35] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 21:45:35] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 21:45:35] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 21:45:35] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 21:45:36] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[17/10/25 21:45:36] info: Program: Finished Squirrel Updater
+[17/10/25 22:57:55] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 22:57:55] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 22:57:55] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[17/10/25 22:57:55] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[17/10/25 22:57:55] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[17/10/25 22:57:56] info: Program: Finished Squirrel Updater
+[18/10/25 00:13:14] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 00:13:14] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 00:13:14] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 00:13:14] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 00:13:14] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 00:13:14] info: Program: Finished Squirrel Updater
+[18/10/25 01:03:19] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 01:03:19] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 01:03:19] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 01:03:19] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 01:03:19] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 01:03:19] info: Program: Finished Squirrel Updater
+[18/10/25 01:08:44] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 01:08:44] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 01:08:44] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 01:08:44] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 01:08:45] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 01:08:45] info: Program: Finished Squirrel Updater
+[18/10/25 02:20:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 02:20:26] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 02:20:26] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 02:20:26] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 02:20:26] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 02:20:27] info: Program: Finished Squirrel Updater
+[18/10/25 05:06:00] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:06:00] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:06:00] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 05:06:00] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:06:00] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 05:06:00] info: Program: Finished Squirrel Updater
+[18/10/25 05:16:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:16:26] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:16:26] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 05:16:26] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:16:26] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 05:16:26] info: Program: Finished Squirrel Updater
+[18/10/25 05:19:19] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:19:19] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:19:19] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 05:19:19] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 05:19:19] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 05:19:19] info: Program: Finished Squirrel Updater
+[18/10/25 09:16:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 09:16:26] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 09:16:26] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 09:16:26] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 09:16:26] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 09:16:26] info: Program: Finished Squirrel Updater
+[18/10/25 15:04:48] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 15:04:48] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 15:04:49] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 15:04:49] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 15:04:49] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 15:04:49] info: Program: Finished Squirrel Updater
+[18/10/25 20:03:34] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 20:03:34] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 20:03:34] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 20:03:35] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 20:03:35] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 20:03:35] info: Program: Finished Squirrel Updater
+[18/10/25 20:04:18] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 20:04:18] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 20:04:18] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 20:04:18] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 20:04:18] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 20:04:18] info: Program: Finished Squirrel Updater
+[18/10/25 21:52:51] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 21:52:51] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 21:52:51] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 21:52:51] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 21:52:51] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 21:52:52] info: Program: Finished Squirrel Updater
+[18/10/25 22:01:32] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 22:01:32] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 22:01:32] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 22:01:32] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 22:01:32] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 22:01:33] info: Program: Finished Squirrel Updater
+[18/10/25 22:06:57] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 22:06:57] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 22:06:57] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[18/10/25 22:06:57] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[18/10/25 22:06:57] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[18/10/25 22:06:58] info: Program: Finished Squirrel Updater
+[19/10/25 00:18:39] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:18:39] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:18:39] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[19/10/25 00:18:39] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:18:39] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[19/10/25 00:18:39] info: Program: Finished Squirrel Updater
+[19/10/25 00:22:56] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:22:56] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:22:56] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[19/10/25 00:22:56] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:22:56] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[19/10/25 00:22:56] info: Program: Finished Squirrel Updater
+[19/10/25 00:47:31] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:47:31] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:47:31] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[19/10/25 00:47:31] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[19/10/25 00:47:31] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[19/10/25 00:47:32] info: Program: Finished Squirrel Updater
+[21/10/25 17:45:06] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 17:45:06] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 17:45:06] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[21/10/25 17:45:06] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 17:45:06] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[21/10/25 17:45:07] info: Program: Finished Squirrel Updater
+[21/10/25 21:45:06] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:45:06] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:45:06] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[21/10/25 21:45:06] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:45:06] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.13.108&arch=amd64
+[21/10/25 21:45:07] warn: UpdateInfo: Couldn't get release notes for:AnthropicClaude-0.14.4-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.4-delta.nupkg'.
+File name: 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.4-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[21/10/25 21:45:07] info: Program: Finished Squirrel Updater
+[21/10/25 21:45:54] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:45:54] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:45:54] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:45:54] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:45:54] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:45:55] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:45:55] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:45:55] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:45:55] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:45:56] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:45:56] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[21/10/25 21:46:01] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:46:01] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[21/10/25 21:46:01] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:46:01] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:46:01] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:46:01] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:46:02] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:46:02] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:46:02] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:46:02] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[21/10/25 21:46:03] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[23/10/25 14:45:09] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[23/10/25 14:45:09] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[23/10/25 14:45:09] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[23/10/25 14:45:09] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[23/10/25 14:45:09] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[23/10/25 14:45:09] info: Program: Finished Squirrel Updater
+[24/10/25 00:21:02] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 00:21:02] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 00:21:02] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[24/10/25 00:21:02] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 00:21:02] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[24/10/25 00:21:03] info: Program: Finished Squirrel Updater
+[24/10/25 03:19:32] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 03:19:32] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 03:19:32] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[24/10/25 03:19:32] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 03:19:32] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[24/10/25 03:19:33] info: Program: Finished Squirrel Updater
+[24/10/25 07:19:30] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 07:19:30] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 07:19:30] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[24/10/25 07:19:30] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 07:19:31] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[24/10/25 07:19:31] info: Program: Finished Squirrel Updater
+[24/10/25 08:17:43] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 08:17:43] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 08:17:43] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[24/10/25 08:17:43] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 08:17:44] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[24/10/25 08:17:44] info: Program: Finished Squirrel Updater
+[24/10/25 10:16:36] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 10:16:36] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 10:16:36] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[24/10/25 10:16:36] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[24/10/25 10:16:36] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[24/10/25 10:16:36] info: Program: Finished Squirrel Updater
+[25/10/25 07:25:45] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 07:25:45] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 07:25:45] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[25/10/25 07:25:46] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 07:25:46] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[25/10/25 07:25:46] info: Program: Finished Squirrel Updater
+[25/10/25 17:17:06] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 17:17:06] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 17:17:07] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[25/10/25 17:17:07] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 17:17:07] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[25/10/25 17:17:07] info: Program: Finished Squirrel Updater
+[25/10/25 19:43:09] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 19:43:09] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 19:43:09] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[25/10/25 19:43:09] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 19:43:09] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[25/10/25 19:43:10] info: Program: Finished Squirrel Updater
+[25/10/25 21:11:51] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 21:11:51] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 21:11:51] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[25/10/25 21:11:51] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[25/10/25 21:11:51] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[25/10/25 21:11:51] info: Program: Finished Squirrel Updater
+[26/10/25 01:11:51] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 01:11:51] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 01:11:51] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[26/10/25 01:11:51] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 01:11:51] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[26/10/25 01:11:51] info: Program: Finished Squirrel Updater
+[26/10/25 04:08:29] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 04:08:29] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 04:08:30] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[26/10/25 04:08:30] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 04:08:30] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[26/10/25 04:08:30] info: Program: Finished Squirrel Updater
+[26/10/25 08:08:29] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 08:08:29] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 08:08:29] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[26/10/25 08:08:29] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 08:08:30] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[26/10/25 08:08:30] info: Program: Finished Squirrel Updater
+[26/10/25 12:31:14] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 12:31:14] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 12:31:15] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[26/10/25 12:31:15] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 12:31:15] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[26/10/25 12:31:15] info: Program: Finished Squirrel Updater
+[26/10/25 14:04:11] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 14:04:11] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 14:04:11] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[26/10/25 14:04:11] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 14:04:11] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[26/10/25 14:04:12] info: Program: Finished Squirrel Updater
+[26/10/25 18:04:11] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 18:04:11] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 18:04:11] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[26/10/25 18:04:11] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 18:04:11] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[26/10/25 18:04:12] info: Program: Finished Squirrel Updater
+[26/10/25 23:29:27] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 23:29:27] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 23:29:27] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[26/10/25 23:29:27] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[26/10/25 23:29:27] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[26/10/25 23:29:28] info: Program: Finished Squirrel Updater
+[27/10/25 03:29:27] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:29:27] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:29:27] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 03:29:27] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:29:27] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 03:29:27] info: Program: Finished Squirrel Updater
+[27/10/25 03:36:09] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:36:09] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:36:09] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 03:36:09] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:36:10] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 03:36:11] info: Program: Finished Squirrel Updater
+[27/10/25 03:39:03] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:39:03] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:39:03] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 03:39:03] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 03:39:04] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 03:39:04] info: Program: Finished Squirrel Updater
+[27/10/25 05:50:52] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 05:50:52] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 05:50:52] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 05:50:52] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 05:50:52] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 05:50:53] info: Program: Finished Squirrel Updater
+[27/10/25 06:48:29] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 06:48:29] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 06:48:29] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 06:48:29] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 06:48:30] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 06:48:30] info: Program: Finished Squirrel Updater
+[27/10/25 09:13:32] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 09:13:32] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 09:13:32] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 09:13:32] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 09:13:32] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 09:13:32] info: Program: Finished Squirrel Updater
+[27/10/25 13:33:46] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 13:33:46] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 13:33:47] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 13:33:47] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 13:33:47] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 13:33:47] info: Program: Finished Squirrel Updater
+[27/10/25 14:16:35] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 14:16:35] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 14:16:35] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 14:16:35] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 14:16:35] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 14:16:35] info: Program: Finished Squirrel Updater
+[27/10/25 17:14:02] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 17:14:02] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 17:14:02] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[27/10/25 17:14:02] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[27/10/25 17:14:02] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[27/10/25 17:14:02] info: Program: Finished Squirrel Updater
+[28/10/25 16:01:50] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:01:50] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:01:50] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[28/10/25 16:01:50] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:01:50] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.4&arch=amd64
+[28/10/25 16:01:51] warn: UpdateInfo: Couldn't get release notes for:AnthropicClaude-0.14.7-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.7-delta.nupkg'.
+File name: 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.7-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[28/10/25 16:01:51] info: Program: Finished Squirrel Updater
+[28/10/25 16:02:21] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:02:21] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:02:21] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:21] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:21] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:22] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:22] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:22] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:22] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:23] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:23] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[28/10/25 16:02:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:02:26] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 16:02:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:27] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:27] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:27] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:27] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:28] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 16:02:28] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 17:10:36] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 17:10:36] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 17:10:36] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[28/10/25 17:10:36] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 17:10:36] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.7&arch=amd64
+[28/10/25 17:10:36] info: Program: Finished Squirrel Updater
+[28/10/25 17:19:22] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 17:19:22] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 17:19:23] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[28/10/25 17:19:23] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 17:19:23] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.7&arch=amd64
+[28/10/25 17:19:23] info: Program: Finished Squirrel Updater
+[28/10/25 21:19:22] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 21:19:22] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 21:19:22] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[28/10/25 21:19:23] info: CheckForUpdateImpl: Downloading RELEASES file from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 21:19:23] info: FileDownloader: Downloading url: https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/RELEASES?id=AnthropicClaude&localVersion=0.14.7&arch=amd64
+[28/10/25 21:19:23] warn: UpdateInfo: Couldn't get release notes for:AnthropicClaude-0.14.10-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.10-delta.nupkg'.
+File name: 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-0.14.10-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[28/10/25 21:19:23] info: Program: Finished Squirrel Updater
+[28/10/25 21:19:54] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[28/10/25 21:19:54] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[28/10/25 21:19:54] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:54] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:54] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:54] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:55] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:55] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:55] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:55] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:56] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[28/10/25 21:19:59] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 21:19:59] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[28/10/25 21:19:59] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:59] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:59] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:19:59] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:20:00] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:20:00] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:20:00] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:20:01] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[28/10/25 21:20:01] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[29/10/25 18:29:55] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[29/10/25 18:29:55] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[29/10/25 18:29:55] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[29/10/25 18:29:55] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[29/10/25 18:29:55] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[29/10/25 18:29:55] info: Program: Finished Squirrel Updater
+[29/10/25 21:38:28] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[29/10/25 21:38:28] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[29/10/25 21:38:28] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[29/10/25 21:38:28] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[29/10/25 21:38:28] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[29/10/25 21:38:28] info: Program: Finished Squirrel Updater
+[29/10/25 22:58:04] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[29/10/25 22:58:04] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[29/10/25 22:58:04] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[29/10/25 22:58:04] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[29/10/25 22:58:04] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[29/10/25 22:58:04] info: Program: Finished Squirrel Updater
+[30/10/25 12:28:54] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[30/10/25 12:28:54] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[30/10/25 12:28:54] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[30/10/25 12:28:55] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[30/10/25 12:28:55] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[30/10/25 12:28:55] info: Program: Finished Squirrel Updater
+[30/10/25 12:40:18] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[30/10/25 12:40:18] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[30/10/25 12:40:18] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[30/10/25 12:40:18] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[30/10/25 12:40:19] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[30/10/25 12:40:19] info: Program: Finished Squirrel Updater
+[30/10/25 16:28:54] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[30/10/25 16:28:54] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[30/10/25 16:28:54] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[30/10/25 16:28:54] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[30/10/25 16:28:54] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[30/10/25 16:28:55] info: Program: Finished Squirrel Updater
+[31/10/25 02:18:27] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:18:27] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:18:27] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 02:18:27] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:18:27] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 02:18:27] info: Program: Finished Squirrel Updater
+[31/10/25 02:24:00] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:24:00] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:24:00] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 02:24:01] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:24:01] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 02:24:01] info: Program: Finished Squirrel Updater
+[31/10/25 02:34:27] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:34:27] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:34:27] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 02:34:27] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:34:27] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 02:34:28] info: Program: Finished Squirrel Updater
+[31/10/25 02:39:19] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:39:19] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:39:19] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 02:39:19] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 02:39:20] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 02:39:20] info: Program: Finished Squirrel Updater
+[31/10/25 05:05:08] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 05:05:08] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 05:05:08] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 05:05:08] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 05:05:09] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 05:05:09] info: Program: Finished Squirrel Updater
+[31/10/25 05:05:23] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 05:05:23] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 05:05:23] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 05:05:23] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 05:05:23] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 05:05:23] info: Program: Finished Squirrel Updater
+[31/10/25 07:32:27] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 07:32:27] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 07:32:27] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 07:32:27] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 07:32:27] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 07:32:27] info: Program: Finished Squirrel Updater
+[31/10/25 08:45:46] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 08:45:46] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 08:45:46] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 08:45:46] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 08:45:46] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 08:45:46] info: Program: Finished Squirrel Updater
+[31/10/25 21:49:46] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 21:49:46] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 21:49:46] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[31/10/25 21:49:46] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 21:49:46] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=0.14.10&arch=amd64
+[31/10/25 21:49:47] warn: UpdateInfo: Couldn't get release notes for:AnthropicClaude-1.0.211-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-1.0.211-delta.nupkg'.
+File name: 'C:\Users\Someone\AppData\Local\AnthropicClaude\packages\AnthropicClaude-1.0.211-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[31/10/25 21:49:47] info: Program: Finished Squirrel Updater
+[31/10/25 21:50:24] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[31/10/25 21:50:24] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[31/10/25 21:50:24] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:25] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:25] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:25] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:25] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:26] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:26] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[31/10/25 21:50:31] info: Program: Starting Squirrel Updater: --checkForUpdate https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[31/10/25 21:50:31] info: Program: Fetching update information, downloading from https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64
+[31/10/25 21:50:31] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:31] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:31] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:31] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:32] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:32] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:32] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:32] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0: System.IO.IOException: The process cannot access the file 'C:\Users\Someone\AppData\Local\Temp\.squirrel-lock-A8F79882C5B4CB9F4D40E319772BC3528A3491C0' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[31/10/25 21:50:33] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[01/11/25 10:08:44] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[01/11/25 10:08:44] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[01/11/25 10:08:44] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[01/11/25 10:08:44] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[01/11/25 10:08:44] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[01/11/25 10:08:45] info: Program: Finished Squirrel Updater
+[01/11/25 14:08:44] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[01/11/25 14:08:44] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[01/11/25 14:08:44] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[01/11/25 14:08:44] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[01/11/25 14:08:44] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[01/11/25 14:08:44] info: Program: Finished Squirrel Updater
+[01/11/25 18:08:44] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[01/11/25 18:08:44] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[01/11/25 18:08:44] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[01/11/25 18:08:44] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[01/11/25 18:08:44] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[01/11/25 18:08:45] info: Program: Finished Squirrel Updater
+[01/11/25 22:25:04] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[01/11/25 22:25:04] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[01/11/25 22:25:04] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[01/11/25 22:25:04] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[01/11/25 22:25:04] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[01/11/25 22:25:05] info: Program: Finished Squirrel Updater
+[02/11/25 00:20:11] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 00:20:11] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 00:20:11] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 00:20:11] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 00:20:11] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 00:20:11] info: Program: Finished Squirrel Updater
+[02/11/25 03:20:11] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 03:20:11] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 03:20:11] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 03:20:11] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 03:20:11] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 03:20:11] info: Program: Finished Squirrel Updater
+[02/11/25 05:19:01] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:19:01] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:19:01] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:19:01] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:19:01] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:19:02] info: Program: Finished Squirrel Updater
+[02/11/25 05:25:15] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:25:15] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:25:15] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:25:15] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:25:15] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:25:15] info: Program: Finished Squirrel Updater
+[02/11/25 05:33:17] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:33:17] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:33:17] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:33:17] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:33:17] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:33:17] info: Program: Finished Squirrel Updater
+[02/11/25 05:35:37] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:35:37] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:35:37] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:35:37] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:35:37] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:35:37] info: Program: Finished Squirrel Updater
+[02/11/25 05:38:16] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:38:16] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:38:16] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:38:16] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:38:16] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:38:17] info: Program: Finished Squirrel Updater
+[02/11/25 05:40:46] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:40:46] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:40:46] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:40:46] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:40:46] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:40:47] info: Program: Finished Squirrel Updater
+[02/11/25 05:43:53] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:43:53] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:43:53] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:43:53] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:43:53] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:43:53] info: Program: Finished Squirrel Updater
+[02/11/25 05:48:24] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:48:24] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:48:24] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:48:24] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:48:24] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:48:24] info: Program: Finished Squirrel Updater
+[02/11/25 05:58:52] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:58:52] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:58:52] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 05:58:53] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 05:58:53] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 05:58:53] info: Program: Finished Squirrel Updater
+[02/11/25 07:06:43] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:06:43] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:06:44] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 07:06:44] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:06:44] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 07:06:44] info: Program: Finished Squirrel Updater
+[02/11/25 07:16:54] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:16:54] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:16:54] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 07:16:55] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:16:55] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 07:16:55] info: Program: Finished Squirrel Updater
+[02/11/25 07:46:03] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:46:03] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:46:03] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 07:46:03] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:46:03] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 07:46:03] info: Program: Finished Squirrel Updater
+[02/11/25 07:55:32] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:55:32] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:55:33] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 07:55:33] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:55:33] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 07:55:33] info: Program: Finished Squirrel Updater
+[02/11/25 07:58:02] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:58:02] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:58:02] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 07:58:02] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 07:58:02] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 07:58:02] info: Program: Finished Squirrel Updater
+[02/11/25 08:39:55] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:39:55] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:39:55] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 08:39:55] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:39:55] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 08:39:56] info: Program: Finished Squirrel Updater
+[02/11/25 08:41:45] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:41:45] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:41:45] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 08:41:45] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:41:45] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 08:41:45] info: Program: Finished Squirrel Updater
+[02/11/25 08:52:53] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:52:53] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:52:53] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 08:52:53] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:52:53] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 08:52:54] info: Program: Finished Squirrel Updater
+[02/11/25 08:55:48] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:55:48] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:55:48] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 08:55:48] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 08:55:48] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 08:55:48] info: Program: Finished Squirrel Updater
+[02/11/25 10:56:18] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 10:56:18] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 10:56:18] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 10:56:18] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 10:56:18] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 10:56:19] info: Program: Finished Squirrel Updater
+[02/11/25 12:03:54] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:03:54] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:03:54] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 12:03:54] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:03:54] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 12:03:54] info: Program: Finished Squirrel Updater
+[02/11/25 12:11:18] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:11:18] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:11:18] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 12:11:18] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:11:19] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 12:11:19] info: Program: Finished Squirrel Updater
+[02/11/25 12:23:29] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:23:29] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:23:29] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 12:23:29] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 12:23:29] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 12:23:29] info: Program: Finished Squirrel Updater
+[02/11/25 16:23:29] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 16:23:29] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 16:23:29] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 16:23:29] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 16:23:29] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 16:23:29] info: Program: Finished Squirrel Updater
+[02/11/25 19:55:56] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 19:55:56] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 19:55:56] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 19:55:56] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 19:55:56] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 19:55:56] info: Program: Finished Squirrel Updater
+[02/11/25 20:23:29] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[02/11/25 20:23:29] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 20:23:29] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[02/11/25 20:23:29] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[02/11/25 20:23:29] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[02/11/25 20:23:29] info: Program: Finished Squirrel Updater
+[03/11/25 00:05:03] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[03/11/25 00:05:03] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 00:05:03] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[03/11/25 00:05:03] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 00:05:03] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[03/11/25 00:05:04] info: Program: Finished Squirrel Updater
+[03/11/25 12:05:01] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[03/11/25 12:05:01] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 12:05:01] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[03/11/25 12:05:01] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 12:05:01] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[03/11/25 12:05:01] info: Program: Finished Squirrel Updater
+[03/11/25 15:44:07] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[03/11/25 15:44:07] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 15:44:07] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[03/11/25 15:44:08] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 15:44:08] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[03/11/25 15:44:08] info: Program: Finished Squirrel Updater
+[03/11/25 19:44:09] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[03/11/25 19:44:09] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 19:44:09] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[03/11/25 19:44:09] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 19:44:09] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[03/11/25 19:44:09] info: Program: Finished Squirrel Updater
+[03/11/25 21:35:14] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[03/11/25 21:35:14] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 21:35:14] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[03/11/25 21:35:14] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[03/11/25 21:35:14] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[03/11/25 21:35:14] info: Program: Finished Squirrel Updater
+[04/11/25 04:57:59] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[04/11/25 04:57:59] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 04:57:59] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[04/11/25 04:57:59] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 04:57:59] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[04/11/25 04:57:59] info: Program: Finished Squirrel Updater
+[04/11/25 05:59:36] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[04/11/25 05:59:36] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 05:59:36] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[04/11/25 05:59:36] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 05:59:37] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[04/11/25 05:59:37] info: Program: Finished Squirrel Updater
+[04/11/25 06:06:39] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[04/11/25 06:06:39] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 06:06:40] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[04/11/25 06:06:40] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 06:06:40] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[04/11/25 06:06:41] info: Program: Finished Squirrel Updater
+[04/11/25 08:44:14] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[04/11/25 08:44:14] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 08:44:14] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[04/11/25 08:44:14] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 08:44:15] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[04/11/25 08:44:15] info: Program: Finished Squirrel Updater
+[04/11/25 11:47:25] info: Program: Starting Squirrel Updater: --checkForUpdate https://downloads.claude.ai/releases/win32/x64
+[04/11/25 11:47:25] info: Program: Fetching update information, downloading from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 11:47:25] info: CheckForUpdateImpl: Using existing staging user ID: 57719c88-0d89-5c11-a975-b17e47d4035b
+[04/11/25 11:47:25] info: CheckForUpdateImpl: Downloading RELEASES file from https://downloads.claude.ai/releases/win32/x64
+[04/11/25 11:47:26] info: FileDownloader: Downloading url: https://downloads.claude.ai/releases/win32/x64/RELEASES?id=AnthropicClaude&localVersion=1.0.211&arch=amd64
+[04/11/25 11:47:26] info: Program: Finished Squirrel Updater
