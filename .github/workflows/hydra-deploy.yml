@@ -1,0 +1,43 @@
+name: Hydra Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Environment
+        required: true
+        default: staging
+        type: choice
+        options:
+          - staging
+          - production
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Phase 1 - Profile
+        shell: powershell
+        run: python hydra_profile_heads.py
+
+      - name: Phase 2 - Weights
+        shell: powershell
+        run: python hydra_adaptive_weighting.py hydra_profiles/head_profile_*.json
+
+      - name: Phase 3 - Deploy
+        shell: powershell
+        run: Write-Host "Deploying to ${{ github.event.inputs.environment }}"
+
+      - name: Phase 4 - Monitor
+        shell: powershell
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File "hydra_head_health_monitor.ps1"
+
+      - name: Phase 5 - Validate
+        shell: powershell
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File "test_rebalancing.ps1"
