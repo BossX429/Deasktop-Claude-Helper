@@ -108,6 +108,13 @@ schtasks /delete /tn "Claude Health Monitor" /f
 - Add `Log-Message` calls for any new repair or detection action.
 - Maintain `-ErrorAction SilentlyContinue` on external operations.
 
+### Hydra-specific checks (add to PRs touching Hydra code)
+
+- Run Python syntax checks: `python -m py_compile hydra_*.py` and `python -m py_compile hydra_dashboard_config_gen.py` locally before opening a PR.
+- Do not commit generated artifacts (for example: `hydra_profiles/`, `hydra_dashboard_config.json`) — these are runtime outputs and should remain untracked. If you need to include sample output for review, add an anonymized excerpt to the PR description instead.
+- When changing profiling or weighting code, include a short reproducible smoke run (e.g., `python hydra_profile_heads.py --num-tests 10`) and attach the generated summary (sanitized) to the PR.
+- Note expected runtime for hydra flows in the PR description when relevant: profiling (~15 min for full run), weighting (~2 min), deploy pipeline (total ~30–40 min across phases).
+
 ## Small examples (copy patterns)
 
 - Detect loggable condition:
