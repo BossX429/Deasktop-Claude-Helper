@@ -142,11 +142,12 @@ function Invoke-SmokeTests {
     Write-Host "Started: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" -ForegroundColor Gray
 
     $results = @()
-    $results += Test-MonitorScriptExists
-    $results += Test-LockFileSimulation
-    $results += Test-MonitorLogCreation
-    $results += Test-ProcessDetection
-    $results += Test-MonitorExecution
+    # Coerce each test result to a boolean to avoid accidental pipeline outputs
+    $results += [bool](Test-MonitorScriptExists)
+    $results += [bool](Test-LockFileSimulation)
+    $results += [bool](Test-MonitorLogCreation)
+    $results += [bool](Test-ProcessDetection)
+    $results += [bool](Test-MonitorExecution)
 
     Write-TestHeader "Test Summary"
     $passed = ($results | Where-Object { $_ -eq $true }).Count
