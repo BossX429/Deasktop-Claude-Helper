@@ -173,6 +173,6 @@ When opening a PR, use this structure for consistency and speedier review:
 
 - **Never** commit PAT tokens; use Windows credential manager or environment variables.
 - **Never** modify `HYDRA-*.md` or `HYDRA-AUDIT-*.json` files (read-only; managed by Hydra system).
-- **Never** use `Start-Sleep` in repair functions; keep repairs fast (<100ms target).
+- **Never** use `Start-Sleep` in repair functions; keep core repair logic fast (<100ms target per attempt; excludes any `$RetryDelaySeconds` between retries).
 - **Never** write to registry or shared application state outside `%TEMP%`; prefer lock files for coordination.
 - **Never** ignore `-ErrorAction SilentlyContinue`; all external operations must handle errors gracefully.
