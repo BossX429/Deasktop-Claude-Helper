@@ -1,4 +1,6 @@
-# Goal
+# Copilot Instructions for AnthropicClaude Repository
+
+## Goal
 
 Provide concise, actionable guidance so an AI coding agent can safely edit, test, and extend the Claude Health Monitor and related Hydra integration.
 
@@ -85,4 +87,99 @@ Start-Process explorer.exe
 - Adding persistent state (outside `%TEMP%`) or external dependencies.
 - Any change that affects Hydra orchestration or shared resources.
 
-If you want, I can expand this to include: exact sample log lines, a small smoke-test harness, or a checklist to gate PRs. Reply with which to add.
+## Repository structure
+
+This repository contains:
+- **PowerShell monitoring scripts** (`.ps1` files) - Core health monitoring and auto-repair system
+- **Python Hydra tooling** (`hydra_*.py` files) - Multi-head profiling, adaptive weighting, and orchestration
+- **Installation scripts** (`.bat`, `.vbs` files) - Windows Task Scheduler integration
+- **Documentation** (`.md` files) - Comprehensive guides for setup, maintenance, and troubleshooting
+- **CI/CD workflows** (`.github/workflows/`) - Automated testing and deployment
+
+## Testing and validation
+
+### Running tests
+
+All tests run on Windows runners and use PowerShell:
+
+```powershell
+# Run smoke tests (validates monitor script functionality)
+PowerShell -NoProfile -ExecutionPolicy Bypass -File "Test-Monitor-Smoke.ps1"
+
+# Run diagnostics (checks monitor and Hydra health)
+PowerShell -NoProfile -ExecutionPolicy Bypass -File "Diagnose-Monitor-Hydra.ps1"
+
+# Run Hydra rebalancing tests
+PowerShell -NoProfile -ExecutionPolicy Bypass -File "test_rebalancing.ps1"
+```
+
+### CI/CD workflows
+
+- **tests.yml**: Runs smoke tests and diagnostics on push/PR to main/develop
+- **hydra-deploy.yml**: Manual deployment workflow for Hydra system (staging/production)
+
+### Before committing changes
+
+1. Run relevant tests locally if possible (Windows environment required)
+2. Ensure PowerShell scripts maintain `-NoProfile -ExecutionPolicy Bypass` compatibility
+3. Verify log file paths still use `%TEMP%` directory
+4. Check that Task Scheduler task name remains "Claude Health Monitor"
+
+## Language and ecosystem specifics
+
+### PowerShell (.ps1 files)
+
+- **No linter required** - scripts use basic PowerShell syntax
+- **No build step** - scripts run directly via PowerShell interpreter
+- **Dependencies**: None - uses built-in Windows cmdlets only
+- **Style**: Follow existing comment style, use `Log-Message` for output
+
+### Python (.py files)
+
+- **Version**: Python 3.9+ (specified in hydra-deploy.yml)
+- **No package manager** - scripts use Python standard library only
+- **No linter configured** - follow existing code style
+- **Dependencies**: `json`, `sys`, `statistics`, `pathlib`, `datetime` (all stdlib)
+
+### Batch/VBScript files
+
+- **Purpose**: Windows installer wrappers only
+- **Do not modify** unless changing installation flow
+- **No linting or testing** - simple wrappers for PowerShell scripts
+
+## Code quality and review guidelines
+
+### Security considerations
+
+- Never hardcode credentials or API keys
+- Avoid modifying system files outside `%TEMP%` and user's AppData
+- Be cautious with `Stop-Process -Force` - only kill processes explicitly listed in documentation
+- Validate all file paths before deletion operations
+
+### Performance expectations
+
+- Monitor script should complete in < 10 seconds
+- Hydra profiling should complete in < 30 seconds
+- No blocking operations that affect Hydra orchestration
+
+### Common pitfalls to avoid
+
+- Do not wrap `Get-Process` without `@(...)` - causes errors with single results
+- Do not remove `-ErrorAction SilentlyContinue` - essential for production reliability
+- Do not change CPU threshold without understanding impact on users
+- Do not introduce new dependencies without approval
+
+## Contribution workflow
+
+1. Make minimal, surgical changes to address the specific issue
+2. Test changes locally if possible (Windows environment ideal)
+3. Update relevant documentation if behavior changes
+4. Run smoke tests and diagnostics before creating PR
+5. Include log output or test results in PR description
+
+## Additional resources
+
+- **Main documentation**: `README-MONITOR.md` - Installation and usage guide
+- **Implementation status**: `IMPLEMENTATION-SUMMARY.md` - Project completion status
+- **Hydra guides**: `HYDRA-*.md` files - Hydra system architecture and setup
+- **Quick reference**: `QUICK-REFERENCE.md` - Common commands and workflows
