@@ -4,9 +4,34 @@
 # Usage: PowerShell -NoProfile -ExecutionPolicy Bypass -File "Test-Monitor-Smoke.ps1"
 
 param(
-    [string]$MonitorScript = "C:\Users\Someone\AppData\Local\AnthropicClaude\Monitor-ClaudeHealth.ps1",
-    [string]$TempDir = $env:TEMP
+    [string]$MonitorScript = "",
+    [string]$TempDir = ""
 )
+
+# Detect CI environment and use appropriate paths
+if ([string]::IsNullOrEmpty($MonitorScript)) {
+    if ($env:GITHUB_ACTIONS -eq "true") {
+        # CI environment: use relative path from repo root
+        $MonitorScript = Join-Path $PSScriptRoot "Monitor-ClaudeHealth.ps1"
+    } else {
+        # Local environment: use default Windows path
+        $MonitorScript = "C:\Users\Someone\AppData\Local\AnthropicClaude\Monitor-ClaudeHealth.ps1"
+    }
+}
+
+if ([string]::IsNullOrEmpty($TempDir)) {
+    if ($env:GITHUB_ACTIONS -eq "true") {
+        # CI environment: use runner temp or current directory temp
+        $TempDir = if ($env:RUNNER_TEMP) { $env:RUNNER_TEMP } else { Join-Path $PSScriptRoot "temp" }
+        # Ensure temp directory exists
+        if (-not (Test-Path $TempDir)) {
+            New-Item -Path $TempDir -ItemType Directory -Force | Out-Null
+        }
+    } else {
+        # Local environment: use system temp
+        $TempDir = $env:TEMP
+    }
+}
 
 function Write-TestHeader {
     param([string]$Title)
@@ -126,7 +151,10 @@ function Test-MonitorExecution {
     }
 
     try {
-        & powershell -NoProfile -ExecutionPolicy Bypass -File $MonitorScript -ErrorAction SilentlyContinue
+        # Use pwsh in CI environments, powershell on Windows
+        $psExecutable = if ($env:GITHUB_ACTIONS -eq "true") { "pwsh" } else { "powershell" }
+        
+        & $psExecutable -NoProfile -ExecutionPolicy Bypass -File $MonitorScript -ErrorAction SilentlyContinue
         Write-TestPass "Monitor script executed without blocking errors"
         return $true
     }

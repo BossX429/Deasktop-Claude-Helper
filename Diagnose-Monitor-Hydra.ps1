@@ -4,11 +4,46 @@
 # Usage: PowerShell -NoProfile -ExecutionPolicy Bypass -File "Diagnose-Monitor-Hydra.ps1"
 
 param(
-    [string]$MonitorScriptDir = "C:\Users\Someone\AppData\Local\AnthropicClaude",
-    [string]$HydraDir = "C:\HydraMixedPipeline",
-    [string]$TempDir = $env:TEMP,
+    [string]$MonitorScriptDir = "",
+    [string]$HydraDir = "",
+    [string]$TempDir = "",
     [int]$TestDurationSeconds = 30
 )
+
+# Detect CI environment and use appropriate paths
+if ([string]::IsNullOrEmpty($MonitorScriptDir)) {
+    if ($env:GITHUB_ACTIONS -eq "true") {
+        # CI environment: use repo root directory
+        $MonitorScriptDir = $PSScriptRoot
+    } else {
+        # Local environment: use default Windows path
+        $MonitorScriptDir = "C:\Users\Someone\AppData\Local\AnthropicClaude"
+    }
+}
+
+if ([string]::IsNullOrEmpty($HydraDir)) {
+    if ($env:GITHUB_ACTIONS -eq "true") {
+        # CI environment: use repo root directory (Hydra files are in repo)
+        $HydraDir = $PSScriptRoot
+    } else {
+        # Local environment: use default Windows path
+        $HydraDir = "C:\HydraMixedPipeline"
+    }
+}
+
+if ([string]::IsNullOrEmpty($TempDir)) {
+    if ($env:GITHUB_ACTIONS -eq "true") {
+        # CI environment: use runner temp or create temp directory
+        $TempDir = if ($env:RUNNER_TEMP) { $env:RUNNER_TEMP } else { Join-Path $PSScriptRoot "temp" }
+        # Ensure temp directory exists
+        if (-not (Test-Path $TempDir)) {
+            New-Item -Path $TempDir -ItemType Directory -Force | Out-Null
+        }
+    } else {
+        # Local environment: use system temp
+        $TempDir = $env:TEMP
+    }
+}
 
 $DiagnosticResults = @{
     Passed = 0
@@ -44,6 +79,12 @@ function Write-DiagWarn {
 
 function Test-ScheduledTask {
     Write-DiagHeader "Scheduled Task Status"
+
+    # Skip on non-Windows systems (CI runners may be Linux)
+    if ($env:GITHUB_ACTIONS -eq "true" -and -not $IsWindows) {
+        Write-DiagWarn "Scheduled task check skipped (non-Windows CI environment)"
+        return
+    }
 
     try {
         $task = Get-ScheduledTask -TaskName "Claude Health Monitor" -ErrorAction SilentlyContinue
@@ -154,7 +195,7 @@ function Test-HydraIntegration {
             Write-DiagPass "Hydra audit report exists"
         }
         else {
-            Write-DiagWarn "Hydra audit report not found"
+            Write-DiagWarn "Hydra audit report not found at $hydraAudit"
         }
     }
     else {
@@ -166,9 +207,22 @@ function Test-TempDirHealth {
     Write-DiagHeader "Temp Directory Health"
 
     try {
-        $tempDrive = Get-PSDrive $TempDir[0] -ErrorAction SilentlyContinue
-        if ($tempDrive) {
-            Write-DiagPass "Temp drive accessible"
+        if ([string]::IsNullOrEmpty($TempDir)) {
+            Write-DiagWarn "Temp directory not set"
+            return
+        }
+
+        if (-not (Test-Path $TempDir)) {
+            Write-DiagWarn "Temp directory does not exist: $TempDir"
+            return
+        }
+
+        # Only check drive on Windows
+        if ($IsWindows -and $TempDir.Length -ge 1) {
+            $tempDrive = Get-PSDrive $TempDir[0] -ErrorAction SilentlyContinue
+            if ($tempDrive) {
+                Write-DiagPass "Temp drive accessible"
+            }
         }
 
         $tempItems = @(Get-ChildItem -Path $TempDir -ErrorAction SilentlyContinue)
@@ -178,6 +232,9 @@ function Test-TempDirHealth {
 
         if ($tempSize -gt 10) {
             Write-DiagWarn "Temp directory is large; consider cleanup"
+        }
+        else {
+            Write-DiagPass "Temp directory size is healthy"
         }
     }
     catch {
@@ -198,10 +255,13 @@ function Test-ParallelExecution {
     }
 
     try {
+        # Use pwsh in CI environments, powershell on Windows
+        $psExecutable = if ($env:GITHUB_ACTIONS -eq "true") { "pwsh" } else { "powershell" }
+        
         $job = Start-Job -ScriptBlock {
-            param($scriptPath)
-            & powershell -NoProfile -ExecutionPolicy Bypass -File $scriptPath -ErrorAction SilentlyContinue
-        } -ArgumentList $monitorScript
+            param($scriptPath, $psExe)
+            & $psExe -NoProfile -ExecutionPolicy Bypass -File $scriptPath -ErrorAction SilentlyContinue
+        } -ArgumentList $monitorScript, $psExecutable
 
         Start-Sleep -Seconds 5
 
@@ -222,7 +282,13 @@ function Test-ParallelExecution {
             Write-DiagPass "Explorer process responsive during monitor execution"
         }
         else {
-            Write-DiagFail "Explorer not running (possible deadlock during monitor)"
+            # On non-Windows systems, explorer won't exist - this is expected
+            if ($env:GITHUB_ACTIONS -eq "true") {
+                Write-DiagPass "Explorer check skipped (CI environment)"
+            }
+            else {
+                Write-DiagFail "Explorer not running (possible deadlock during monitor)"
+            }
         }
 
         Remove-Job -Job $job -Force -ErrorAction SilentlyContinue
