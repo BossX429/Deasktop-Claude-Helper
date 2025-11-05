@@ -169,6 +169,25 @@ When opening a PR, use this structure for consistency and speedier review:
 - Merge strategy: Squash and merge (unless commit history important)
 ```
 
+## Autonomous CI/CD & Auto-Merge (Important!)
+
+The repository is configured for **fully autonomous PR operations**:
+
+1. **Branch naming**: PRs created with `copilot/`, `ai/`, or `[AI]` prefix are automatically recognized as AI-generated
+2. **Auto-review requests**: Maintainers are automatically requested to review AI-generated PRs
+3. **Auto-merge**: Once all checks pass (`smoke-tests` ✅) AND 1 maintainer approves, the PR will **automatically merge** (squash strategy)
+
+**For AI agents:**
+- Create clear, focused branches: `copilot/fix-xxx` or `ai/feature-yyy`
+- Ensure your PR body explains the changes (see `.github/PULL_REQUEST_TEMPLATE.md`)
+- The system will handle review requests and merging automatically
+- No manual intervention needed if tests pass!
+
+**For maintainers:**
+- Reviews trigger auto-merge workflow when all conditions are met
+- You can still review/modify the PR before auto-merge happens
+- Branch protection ensures all checks pass before any merge
+
 ## Critical DON'Ts (from HYDRA audit)
 
 - **Never** commit PAT tokens; use Windows credential manager or environment variables.

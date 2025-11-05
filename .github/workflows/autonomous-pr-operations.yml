@@ -1,0 +1,197 @@
+name: Autonomous PR Operations
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+  pull_request_review:
+    types: [submitted, edited]
+
+jobs:
+  # Request reviews from maintainers when AI/Copilot PR is created
+  request-reviews:
+    runs-on: ubuntu-latest
+    if: |
+      github.event.action == 'opened' &&
+      (contains(github.head_ref, 'copilot/') || contains(github.head_ref, 'ai/') || github.actor == 'github-actions')
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Request reviews from maintainers
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const maintainers = ['BossX429']; // Add maintainer usernames here
+            const pr = context.payload.pull_request;
+
+            if (maintainers.length > 0) {
+              try {
+                await github.rest.pulls.requestReviewers({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: pr.number,
+                  reviewers: maintainers
+                });
+                console.log(`✅ Review requested from: ${maintainers.join(', ')}`);
+              } catch (error) {
+                console.log(`⚠️  Could not request reviews: ${error.message}`);
+              }
+            }
+
+      - name: Add info comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const isAIGen =
+              pr.title.includes('[AI]') ||
+              pr.title.includes('Copilot') ||
+              pr.body?.includes('AI agent') ||
+              ['copilot/', 'ai/'].some(prefix => context.payload.pull_request?.head?.ref?.startsWith(prefix));
+
+            if (isAIGen) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                body: `🤖 **AI-Generated PR Detected**\n\n` +
+                  `This PR was automatically created. Once all checks pass and a maintainer approves, it will automatically merge.\n\n` +
+                  `**Status checks required:**\n` +
+                  `- ✅ \`smoke-tests\` must pass\n\n` +
+                  `**See also:**\n` +
+                  `- [Copilot Instructions](.github/copilot-instructions.md)\n` +
+                  `- [PR Template](.github/PULL_REQUEST_TEMPLATE.md)`
+              });
+            }
+
+  # Auto-merge when all conditions are met
+  auto-merge-on-approval:
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'pull_request_review' &&
+      github.event.review.state == 'APPROVED' &&
+      (contains(github.event.pull_request.head.ref, 'copilot/') ||
+       contains(github.event.pull_request.head.ref, 'ai/') ||
+       github.event.pull_request.user.login == 'github-actions')
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - name: Check if all required checks pass
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+
+            const { data: checks } = await github.rest.checks.listForRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: pr.head.sha
+            });
+
+            const requiredChecks = ['smoke-tests'];
+            const checksByName = {};
+
+            checks.check_runs.forEach(run => {
+              checksByName[run.name] = run.status === 'completed' && run.conclusion === 'success';
+            });
+
+            const allPassed = requiredChecks.every(name => checksByName[name] === true);
+            const approvalCount = pr.review_comments; // Count approvals
+
+            console.log(`Checks passed: ${JSON.stringify(checksByName)}`);
+            console.log(`All required checks passed: ${allPassed}`);
+
+            if (!allPassed) {
+              console.log('❌ Not all required checks have passed yet');
+              process.exit(1);
+            }
+
+            console.log('✅ All checks passed! Ready for auto-merge');
+
+      - name: Enable auto-merge (squash)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (e) {
+              // Ignore if we can't comment
+            }
+
+            // Use GraphQL to enable auto-merge
+            const mutation = `
+              mutation {
+                enablePullRequestAutoMerge(input: {
+                  pullRequestId: "${context.payload.pull_request.node_id}",
+                  mergeMethod: SQUASH
+                }) {
+                  pullRequest {
+                    autoMergeRequest {
+                      enabledAt
+                      enabledBy {
+                        login
+                      }
+                      mergeMethod
+                    }
+                  }
+                }
+              }
+            `;
+
+            try {
+              const result = await github.graphql(mutation);
+              if (result.enablePullRequestAutoMerge.pullRequest.autoMergeRequest) {
+                console.log('✅ Auto-merge enabled for this PR');
+
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  body: `🚀 **Auto-merge enabled!**\n\n` +
+                    `This PR will automatically merge once all checks pass.`
+                });
+              }
+            } catch (error) {
+              console.log(`Note: Auto-merge setup: ${error.message}`);
+            }
+
+  # Label AI-generated PRs
+  label-ai-prs:
+    runs-on: ubuntu-latest
+    if: github.event.action == 'opened'
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Add AI-generated label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const isAI =
+              pr.head.ref?.includes('copilot/') ||
+              pr.head.ref?.includes('ai/') ||
+              pr.body?.includes('AI agent') ||
+              pr.title.includes('[AI]');
+
+            if (isAI) {
+              try {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.number,
+                  labels: ['ai-generated']
+                });
+                console.log('✅ Added ai-generated label');
+              } catch (error) {
+                console.log(`Label may not exist yet: ${error.message}`);
+              }
+            }
