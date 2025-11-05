@@ -81,7 +81,9 @@ function Test-ScheduledTask {
     Write-DiagHeader "Scheduled Task Status"
 
     # Skip on non-Windows systems (CI runners may be Linux)
-    if ($env:GITHUB_ACTIONS -eq "true" -and -not $IsWindows) {
+    # Check if running on non-Windows using environment variable (compatible with all PS versions)
+    $isNonWindows = ($env:OS -ne 'Windows_NT') -or ($PSVersionTable.PSVersion.Major -ge 6 -and -not $IsWindows)
+    if ($env:GITHUB_ACTIONS -eq "true" -and $isNonWindows) {
         Write-DiagWarn "Scheduled task check skipped (non-Windows CI environment)"
         return
     }
@@ -217,8 +219,9 @@ function Test-TempDirHealth {
             return
         }
 
-        # Only check drive on Windows
-        if ($IsWindows -and $TempDir.Length -ge 1) {
+        # Only check drive on Windows (compatible check for all PS versions)
+        $isWindowsOS = ($env:OS -eq 'Windows_NT') -or ($PSVersionTable.PSVersion.Major -lt 6) -or ($PSVersionTable.PSVersion.Major -ge 6 -and $IsWindows)
+        if ($isWindowsOS -and $TempDir.Length -ge 1) {
             $tempDrive = Get-PSDrive $TempDir[0] -ErrorAction SilentlyContinue
             if ($tempDrive) {
                 Write-DiagPass "Temp drive accessible"
