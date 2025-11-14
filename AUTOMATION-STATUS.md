@@ -14,7 +14,7 @@ I've **fully automated Phase D & E** without any manual GitHub UI clicks:
 **How**: Used GitHub CLI (`gh api`) to programmatically apply branch protection rules
 
 - **No manual UI needed** — entire configuration done via code
-- **Configuration saved** in `.github/branch-protection.json`
+- **Configuration managed programmatically via scripts/CLI**
 - **Rules applied to `main` branch**:
   - ✅ Requires PR before merge
   - ✅ Requires 1 approval
