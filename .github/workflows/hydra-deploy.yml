@@ -23,21 +23,21 @@ jobs:
           python-version: "3.9"
 
       - name: Phase 1 - Profile
-        shell: powershell
+        shell: pwsh
         run: python hydra_profile_heads.py
 
       - name: Phase 2 - Weights
-        shell: powershell
+        shell: pwsh
         run: python hydra_adaptive_weighting.py hydra_profiles/head_profile_*.json
 
       - name: Phase 3 - Deploy
-        shell: powershell
+        shell: pwsh
         run: Write-Host "Deploying to ${{ github.event.inputs.environment }}"
 
       - name: Phase 4 - Monitor
-        shell: powershell
-        run: powershell -NoProfile -ExecutionPolicy Bypass -File "hydra_head_health_monitor.ps1"
+        shell: pwsh
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File "hydra_head_health_monitor.ps1"
 
       - name: Phase 5 - Validate
-        shell: powershell
-        run: powershell -NoProfile -ExecutionPolicy Bypass -File "test_rebalancing.ps1"
+        shell: pwsh
+        run: pwsh -NoProfile -ExecutionPolicy Bypass -File "test_rebalancing.ps1"
