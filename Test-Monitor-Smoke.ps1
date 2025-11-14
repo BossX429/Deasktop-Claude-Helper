@@ -5,7 +5,7 @@
 
 param(
     [string]$MonitorScript = $null,  # Will auto-detect
-    [string]$TempDir = $env:TEMP
+    [string]$TempDir = $(if ($env:TEMP) { $env:TEMP } elseif ($IsLinux -or $IsMacOS) { "/tmp" } else { $env:TEMP })
 )
 
 # Auto-detect monitor script: check repo first (CI), then user local
@@ -139,7 +139,9 @@ function Test-MonitorExecution {
     }
 
     try {
-        & powershell -NoProfile -ExecutionPolicy Bypass -File $MonitorScript -ErrorAction SilentlyContinue
+        # Use pwsh for cross-platform compatibility (PowerShell Core)
+        $pwshCmd = if (Get-Command pwsh -ErrorAction SilentlyContinue) { "pwsh" } else { "powershell" }
+        & $pwshCmd -NoProfile -ExecutionPolicy Bypass -File $MonitorScript -ErrorAction SilentlyContinue
         Write-TestPass "Monitor script executed without blocking errors"
         return $true
     }

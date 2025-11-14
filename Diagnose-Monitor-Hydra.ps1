@@ -6,7 +6,7 @@
 param(
     [string]$MonitorScriptDir = $null,  # Will auto-detect
     [string]$HydraDir = $null,          # Will auto-detect
-    [string]$TempDir = $env:TEMP,
+    [string]$TempDir = $(if ($env:TEMP) { $env:TEMP } elseif ($IsLinux -or $IsMacOS) { "/tmp" } else { $env:TEMP }),
     [int]$TestDurationSeconds = 30
 )
 
@@ -196,9 +196,18 @@ function Test-TempDirHealth {
     Write-DiagHeader "Temp Directory Health"
 
     try {
-        $tempDrive = Get-PSDrive $TempDir[0] -ErrorAction SilentlyContinue
-        if ($tempDrive) {
-            Write-DiagPass "Temp drive accessible"
+        # Handle temp directory path validation cross-platform
+        if ([string]::IsNullOrEmpty($TempDir)) {
+            Write-DiagFail "Temp directory path is not set"
+            return
+        }
+
+        if (Test-Path -Path $TempDir) {
+            Write-DiagPass "Temp directory accessible: $TempDir"
+        }
+        else {
+            Write-DiagFail "Temp directory not accessible: $TempDir"
+            return
         }
 
         $tempItems = @(Get-ChildItem -Path $TempDir -ErrorAction SilentlyContinue)
@@ -228,10 +237,13 @@ function Test-ParallelExecution {
     }
 
     try {
+        # Use pwsh for cross-platform compatibility
+        $pwshCmd = if (Get-Command pwsh -ErrorAction SilentlyContinue) { "pwsh" } else { "powershell" }
+        
         $job = Start-Job -ScriptBlock {
-            param($scriptPath)
-            & powershell -NoProfile -ExecutionPolicy Bypass -File $scriptPath -ErrorAction SilentlyContinue
-        } -ArgumentList $monitorScript
+            param($scriptPath, $pwshCommand)
+            & $pwshCommand -NoProfile -ExecutionPolicy Bypass -File $scriptPath -ErrorAction SilentlyContinue
+        } -ArgumentList $monitorScript, $pwshCmd
 
         Start-Sleep -Seconds 5
 
@@ -252,7 +264,13 @@ function Test-ParallelExecution {
             Write-DiagPass "Explorer process responsive during monitor execution"
         }
         else {
-            Write-DiagFail "Explorer not running (possible deadlock during monitor)"
+            # On Linux/macOS, explorer won't exist, so this is expected
+            if ($IsLinux -or $IsMacOS) {
+                Write-DiagPass "Non-Windows platform - skipping explorer check"
+            }
+            else {
+                Write-DiagFail "Explorer not running (possible deadlock during monitor)"
+            }
         }
 
         Remove-Job -Job $job -Force -ErrorAction SilentlyContinue
