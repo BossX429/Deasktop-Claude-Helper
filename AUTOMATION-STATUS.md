@@ -38,7 +38,7 @@ remote: - Required status check "smoke-tests" is expected.
 - **Tests Triggered**: `tests.yml` workflow automatically executed on PR
 - **Status Checks**: Running and validating
 
-**PR URL**: https://github.com/BossX429/AnthropicClaude/pull/1
+**PR URL** (example): https://github.com/BossX429/AnthropicClaude/pull/1
 
 ---
 
