@@ -1,3 +1,11 @@
+---
+applies_to:
+  - "**/*.ps1"
+  - "**/*.py"
+  - "**/*.md"
+  - ".github/**"
+---
+
 # Goal
 
 Provide concise, actionable guidance so an AI coding agent can safely edit, test, and extend the Claude Health Monitor and integrated Hydra decision system.
@@ -87,6 +95,85 @@ Get-Content "$env:TEMP\Claude-Monitor-*.log" -Tail 50 -Wait
 ```powershell
 schtasks /delete /tn "Claude Health Monitor" /f
 ```
+
+## How to Build, Test, and Lint
+
+This repository uses PowerShell and Python. Follow these commands to validate changes:
+
+### Testing
+
+**Run smoke tests** (required before PR):
+```powershell
+PowerShell -NoProfile -ExecutionPolicy Bypass -File "Test-Monitor-Smoke.ps1"
+```
+
+**Run diagnostics** (troubleshooting):
+```powershell
+PowerShell -NoProfile -ExecutionPolicy Bypass -File "Diagnose-Monitor-Hydra.ps1"
+```
+
+**Test Hydra rebalancing** (after Hydra changes):
+```powershell
+PowerShell -NoProfile -ExecutionPolicy Bypass -File "test_rebalancing.ps1"
+```
+
+### Linting & Validation
+
+**PowerShell scripts** - syntax check:
+```powershell
+Get-ChildItem -Filter *.ps1 | ForEach-Object {
+    $null = [System.Management.Automation.PSParser]::Tokenize((Get-Content $_.FullName -Raw), [ref]$null)
+    if ($?) { Write-Host "✓ $($_.Name)" -ForegroundColor Green }
+}
+```
+
+**Python scripts** - syntax check:
+```bash
+python -m py_compile hydra_profile_heads.py
+python -m py_compile hydra_adaptive_weighting.py
+python -m py_compile hydra_dashboard_config_gen.py
+```
+
+**Python scripts** - run type checking (if mypy available):
+```bash
+mypy hydra_*.py --ignore-missing-imports
+```
+
+### Running Hydra Components
+
+**Profile heads** (15 min, 100 tests per head):
+```bash
+python hydra_profile_heads.py
+```
+
+**Calculate adaptive weights** (2 min):
+```bash
+python hydra_adaptive_weighting.py
+```
+
+**Monitor head health** (ongoing):
+```powershell
+PowerShell -NoProfile -ExecutionPolicy Bypass -File "hydra_head_health_monitor.ps1"
+```
+
+### CI/CD Validation
+
+All PRs automatically run:
+- Smoke tests via `.github/workflows/tests.yml`
+- Diagnostics (informational)
+
+**Manual workflow trigger**:
+```bash
+gh workflow run tests.yml
+gh workflow run hydra-deploy.yml  # 5-phase deployment (manual trigger only)
+```
+
+### Before Committing
+
+1. **Test**: Run `Test-Monitor-Smoke.ps1` to ensure no regressions
+2. **Lint**: Check PowerShell syntax and Python syntax
+3. **Verify**: If touching Hydra code, run a small profiling test (`python hydra_profile_heads.py --num-tests 10`)
+4. **Document**: Update relevant `.md` files if behavior changes
 
 ## Project-specific conventions (must follow)
 
