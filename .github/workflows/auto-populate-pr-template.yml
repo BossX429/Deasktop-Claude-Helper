@@ -1,0 +1,84 @@
+name: Auto-populate PR template for AI agents
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  populate-pr-body:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read PR template
+        id: read-template
+        run: |
+          if [ -f ".github/PULL_REQUEST_TEMPLATE.md" ]; then
+            TEMPLATE=$(cat .github/PULL_REQUEST_TEMPLATE.md)
+            # Escape newlines for GitHub Actions output
+            echo "template<<EOF" >> $GITHUB_OUTPUT
+            echo "$TEMPLATE" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          else
+            echo "template=No template found" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check if body is empty or minimal
+        id: check-body
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          # If body is empty or just whitespace, mark for population
+          if [ -z "$PR_BODY" ] || [ -z "$(echo '$PR_BODY' | tr -d '[:space:]')" ]; then
+            echo "needs_body=true" >> $GITHUB_OUTPUT
+          else
+            echo "needs_body=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Populate PR body if empty
+        if: steps.check-body.outputs.needs_body == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const template = `${{ steps.read-template.outputs.template }}`;
+            const pr = context.payload.pull_request;
+
+            // Only auto-populate if body is truly empty
+            if (!pr.body || pr.body.trim() === '') {
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pr.number,
+                body: template
+              });
+              console.log('✅ PR body populated with template');
+            } else {
+              console.log('ℹ️  PR already has a body; skipping auto-population');
+            }
+
+      - name: Add comment with guidance (for bot-created PRs)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const botNames = ['dependabot', 'renovate', 'github-actions'];
+            const isBot = botNames.some(bot => pr.user.login.includes(bot)) || pr.user.type === 'Bot';
+
+            if (isBot) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                body: `🤖 **AI/Bot PR Detected**\n\n` +
+                  `- Review \`.github/copilot-instructions.md\` for safe-edit guidelines\n` +
+                  `- Ensure \`smoke-tests\` status check passes\n` +
+                  `- Hydra files must remain read-only; verify with \`git diff HEAD origin/main\`\n` +
+                  `- See \`.github/PULL_REQUEST_TEMPLATE.md\` for required PR body sections`
+              });
+            }
