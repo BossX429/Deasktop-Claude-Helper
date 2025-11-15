@@ -10,6 +10,47 @@ applies_to:
 
 Provide concise, actionable guidance so an AI coding agent can safely edit, test, and extend the Claude Health Monitor and integrated Hydra decision system.
 
+## Task suitability for AI agents
+
+### ✅ Good tasks for Copilot (assign with confidence)
+
+- **Bug fixes** with clear reproduction steps and expected behavior
+- **Test additions** for existing functionality (unit tests, integration tests)
+- **Documentation updates** to match code changes or improve clarity
+- **Code refactoring** following established project conventions
+- **Technical debt** with well-defined scope and acceptance criteria
+- **Logging improvements** - adding `Log-Message` calls to existing functions
+- **Error handling** - adding `-ErrorAction SilentlyContinue` patterns
+- **Accessibility improvements** with clear guidelines
+
+### ⚠️ Review carefully (suitable but needs human oversight)
+
+- **Performance optimizations** - verify benchmarks and test thoroughly
+- **Configuration changes** to non-critical values (not `$CPUThreshold`)
+- **New features** with clear requirements and test cases
+- **Dependency updates** - check compatibility and run full test suite
+- **Workflow modifications** - ensure CI/CD pipeline remains functional
+
+### ❌ Not suitable for Copilot (assign to humans)
+
+- **Security-critical fixes** - requires deep security expertise and review
+- **Breaking changes** - needs careful migration planning and communication
+- **Architecture changes** - requires system-wide understanding and design
+- **Critical threshold adjustments** - e.g., changing `$CPUThreshold = 500`
+- **Production deployment decisions** - requires business judgment
+- **Hydra algorithm redesign** - needs mathematical and domain expertise
+- **Branch protection changes** - repository governance decisions
+
+### 📋 Custom agent profiles available
+
+For specialized tasks, reference these agent profiles in your issue/PR:
+
+- `.github/agents/documentation-agent.md` - README, guides, markdown files
+- `.github/agents/powershell-agent.md` - Monitor scripts, error handling
+- `.github/agents/python-agent.md` - Hydra profiling, weighting algorithms
+
+Example: `[Agent: PowerShell] Add logging to CPU spike detection function`
+
 ## Big picture (read first)
 
 - **Five-layer architecture**: Application (multi-release Electron Claude `app-*`), Health Monitoring, Hydra Decision System, VS Code Optimization, GitHub Actions CI/CD.
