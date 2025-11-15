@@ -1,22 +1,66 @@
 # GitHub Copilot Integration Setup Guide
 
-**Status:** ✅ Complete
-**Date:** November 14, 2025
-**PR:** [copilot/setup-copilot-integration](https://github.com/BossX429/AnthropicClaude/pull/)
+**Status:** ✅ Complete & Modernized
+**Date:** November 15, 2025
+**Latest Update:** Modern file-scoped instructions added
 
 ## Overview
 
-This guide documents the GitHub Copilot coding agent integration setup for the AnthropicClaude repository, following [GitHub's official best practices](https://docs.github.com/en/copilot/tutorials/coding-agent).
+This guide documents the GitHub Copilot coding agent integration for the AnthropicClaude repository, following [GitHub's official best practices](https://docs.github.com/en/copilot/tutorials/coding-agent).
 
 ## What Was Implemented
 
-### 1. Enhanced Copilot Instructions
+### 1. Modern File-Scoped Instructions (NEW)
+
+**Directory:** `.github/instructions/`
+
+**Purpose:** Automatic, context-aware guidance based on file type using YAML frontmatter
+
+Created comprehensive instruction files with file-specific scoping:
+
+#### Global Instructions (`global.instructions.md`)
+- **Applies to:** `**/*` (all files)
+- **Content:** Repository-wide guidance, task suitability, git workflow, testing
+- **Size:** 124 lines
+
+#### PowerShell Instructions (`powershell.instructions.md`)
+- **Applies to:** `**/*.ps1`
+- **Content:** Health Monitor conventions, error handling, logging, idempotence
+- **Size:** 229 lines
+- **Key topics:** `-ErrorAction SilentlyContinue`, `Log-Message`, critical thresholds
+
+#### Python Instructions (`python.instructions.md`)
+- **Applies to:** `**/*.py`
+- **Content:** Hydra system development, profiling, adaptive weighting
+- **Size:** 353 lines
+- **Key topics:** Syntax validation, runtime expectations, artifact management
+
+#### Documentation Instructions (`docs.instructions.md`)
+- **Applies to:** `**/*.md`
+- **Content:** Writing style, formatting, templates, maintenance standards
+- **Size:** 337 lines
+- **Key topics:** Structure, tone, emoji usage, quality checklist
+
+#### GitHub Workflows Instructions (`github-workflows.instructions.md`)
+- **Applies to:** `.github/workflows/**/*.yml`
+- **Content:** CI/CD best practices, security, testing, debugging
+- **Size:** 413 lines
+- **Key topics:** Permissions, secrets, patterns, workflow-specific rules
+
+#### Instructions Directory README (`README.md`)
+- **Purpose:** Overview of instruction system and usage
+- **Size:** 244 lines
+- **Content:** How instructions work, comparison with legacy format, maintenance
+
+**Total:** ~1,700 lines of focused, file-scoped guidance
+
+### 2. Legacy Copilot Instructions (Maintained)
 
 **File:** `.github/copilot-instructions.md`
 
-**Added:** Task suitability guidance section at the top
+**Status:** Kept for backward compatibility
 
-The existing copilot-instructions.md (199 lines) was already comprehensive with:
+The existing copilot-instructions.md (241 lines) remains comprehensive with:
 - Project context and architecture overview
 - Key files documentation
 - Repository state and workflow guidelines
@@ -24,13 +68,12 @@ The existing copilot-instructions.md (199 lines) was already comprehensive with:
 - Safe-edit checklists
 - PR templates and examples
 - Critical DON'Ts section
+- Task assignment guidance categorizing work as:
+  - ✅ **Good for Copilot:** Bug fixes, tests, documentation, refactoring
+  - ⚠️ **Review carefully:** Performance optimizations, new features
+  - ❌ **Not suitable:** Security fixes, architecture changes, critical configs
 
-**New addition:** Task assignment guidance categorizing work as:
-- ✅ **Good for Copilot:** Bug fixes, tests, documentation, refactoring
-- ⚠️ **Review carefully:** Performance optimizations, new features
-- ❌ **Not suitable:** Security fixes, architecture changes, critical configs
-
-### 2. Custom Agent Profiles
+### 3. Custom Agent Profiles
 
 **Directory:** `.github/agents/`
 
@@ -40,35 +83,30 @@ Created specialized agent profiles following GitHub's recommendation for focused
 - **Purpose:** Handle README updates, guides, and markdown files
 - **Expertise:** Technical writing, documentation consistency
 - **Responsibilities:** README maintenance, user guides, changelog updates
-- **Size:** 4.1 KB
+- **Usage:** Manually invoked for specialized documentation work
 
 #### PowerShell Agent (`powershell-agent.md`)
 - **Purpose:** Monitor script development and maintenance
 - **Expertise:** PowerShell 5.1+, Windows automation, error handling
 - **Responsibilities:** Monitor scripts, logging, installation scripts
-- **Size:** 6.0 KB
-- **Key Conventions:**
-  - Always use `-ErrorAction SilentlyContinue`
-  - Wrap `Get-Process` in `@(...)`
-  - Use `Log-Message` for all events
-  - Keep repairs idempotent
-
+- **Usage:** Manually invoked for complex PowerShell tasks
 #### Python Agent (`python-agent.md`)
 - **Purpose:** Hydra system profiling and algorithms
 - **Expertise:** Python 3.7+, performance profiling, algorithms
 - **Responsibilities:** Hydra profiling, adaptive weighting, testing
-- **Size:** 9.0 KB
-- **Key Conventions:**
-  - Run `python -m py_compile` before committing
-  - Don't commit generated artifacts
-  - Include reproducible test runs in PRs
+- **Usage:** Manually invoked for Hydra-specific algorithm work
 
 #### Agent Directory Overview (`agents/README.md`)
 - **Purpose:** Directory guide and usage instructions
-- **Content:** Available agents, how to use them, development guidelines
-- **Size:** 1.7 KB
+- **Content:** Available agents, how to use them, relationship with instructions
+- **Updated:** Now references `.github/instructions/` for automatic guidance
 
-### 3. Main Repository README
+**Custom Agents vs. Instructions:**
+- **Custom Agents** (`.github/agents/`): Manually invoked for specialized tasks
+- **Instructions** (`.github/instructions/`): Automatically applied based on file type
+- Both systems work together for optimal Copilot performance
+
+### 4. Main Repository README
 
 **File:** `README.md`
 
@@ -112,9 +150,17 @@ This implementation follows all 8 official best practices from GitHub's document
 - Warning about security and critical tasks
 
 ### ✅ 3. Custom Instructions for Context
-- Comprehensive copilot-instructions.md (244 lines)
-- Project-specific conventions documented
-- Specialized agent profiles for focused work
+- **Modern approach:** File-scoped instructions in `.github/instructions/` with YAML frontmatter
+- **Legacy support:** Comprehensive `.github/copilot-instructions.md` (241 lines)
+- **Total guidance:** ~1,900 lines of context across all instruction files
+- **Automatic application:** Instructions apply based on file type being edited
+- **Specialized agents:** Custom agent profiles for focused work
+
+**How it works:**
+1. Editing `Monitor-ClaudeHealth.ps1` → Copilot loads `global.instructions.md` + `powershell.instructions.md`
+2. Editing `hydra_profile_heads.py` → Copilot loads `global.instructions.md` + `python.instructions.md`
+3. Editing `README.md` → Copilot loads `global.instructions.md` + `docs.instructions.md`
+4. Editing `.github/workflows/tests.yml` → Copilot loads `global.instructions.md` + `github-workflows.instructions.md`
 
 ### ✅ 4. Environment and Automation
 - GitHub Actions workflows configured (tests.yml, hydra-deploy.yml)
@@ -144,27 +190,66 @@ This implementation follows all 8 official best practices from GitHub's document
 
 ## File Summary
 
-| File | Type | Size | Purpose |
-|------|------|------|---------|
-| `.github/copilot-instructions.md` | Modified | +45 lines | Added task suitability guidance |
-| `.github/agents/README.md` | New | 1.7 KB | Agent directory overview |
-| `.github/agents/documentation-agent.md` | New | 4.1 KB | Documentation specialist |
-| `.github/agents/powershell-agent.md` | New | 6.0 KB | PowerShell expert |
-| `.github/agents/python-agent.md` | New | 9.0 KB | Python/Hydra expert |
-| `README.md` | New | 11.2 KB | Main repository README |
+### Modern Instructions (NEW)
 
-**Total additions:** ~32 KB of documentation and guidance
+| File | Type | Lines | Purpose |
+|------|------|-------|---------|
+| `.github/instructions/global.instructions.md` | New | 124 | Repository-wide guidance (all files) |
+| `.github/instructions/powershell.instructions.md` | New | 229 | PowerShell conventions (`**/*.ps1`) |
+| `.github/instructions/python.instructions.md` | New | 353 | Python/Hydra guidance (`**/*.py`) |
+| `.github/instructions/docs.instructions.md` | New | 337 | Documentation standards (`**/*.md`) |
+| `.github/instructions/github-workflows.instructions.md` | New | 413 | Workflow best practices (`.github/workflows/**/*.yml`) |
+| `.github/instructions/README.md` | New | 244 | Instructions directory overview |
+
+**Modern instructions total:** ~1,700 lines
+
+### Legacy & Supporting Files
+
+| File | Type | Lines | Purpose |
+|------|------|-------|---------|
+| `.github/copilot-instructions.md` | Existing | 241 | Legacy comprehensive instructions (backward compatible) |
+| `.github/agents/README.md` | Updated | - | Agent directory overview, now references instructions |
+| `.github/agents/documentation-agent.md` | Existing | - | Documentation specialist |
+| `.github/agents/powershell-agent.md` | Existing | - | PowerShell expert |
+| `.github/agents/python-agent.md` | Existing | - | Python/Hydra expert |
+| `README.md` | Existing | - | Main repository README |
+| `COPILOT-SETUP-GUIDE.md` | Updated | - | This file, updated with modern instructions |
+
+**Grand total:** ~1,900+ lines of Copilot guidance
 
 ## How to Use
 
 ### For Human Contributors
 
 1. **Read README.md first** - Understand the project
-2. **Review copilot-instructions.md** - Learn conventions
-3. **Create clear issues** - Reference agent profiles when appropriate
-4. **Follow PR template** - Use auto-populated template
+2. **Browse `.github/instructions/`** - See available file-scoped guidance
+3. **Review `.github/copilot-instructions.md`** - Comprehensive legacy reference
+4. **Create clear issues** - Reference agent profiles when appropriate
+5. **Follow PR template** - Use auto-populated template
 
-### For GitHub Copilot
+### For GitHub Copilot (Automatic)
+
+**Instructions apply automatically based on file type:**
+
+1. **Editing PowerShell** (`*.ps1`):
+   - Automatically loads `global.instructions.md` + `powershell.instructions.md`
+   - Gets context on error handling, logging, idempotence rules
+   
+2. **Editing Python** (`*.py`):
+   - Automatically loads `global.instructions.md` + `python.instructions.md`
+   - Gets context on Hydra profiling, syntax validation, artifacts
+
+3. **Editing Documentation** (`*.md`):
+   - Automatically loads `global.instructions.md` + `docs.instructions.md`
+   - Gets context on writing style, formatting, templates
+
+4. **Editing Workflows** (`.github/workflows/*.yml`):
+   - Automatically loads `global.instructions.md` + `github-workflows.instructions.md`
+   - Gets context on security, testing, permissions
+
+### For GitHub Copilot (Manual Agent Invocation)
+
+**Reference custom agents for specialized work:**
 
 1. **Reference agent profiles in issues:**
    ```
@@ -202,31 +287,58 @@ python3 -m py_compile hydra_dashboard_config_gen.py
 ```
 .github/
 ├── agents/
-│   ├── README.md
+│   ├── README.md (updated with instructions reference)
 │   ├── documentation-agent.md
 │   ├── powershell-agent.md
 │   └── python-agent.md
-├── copilot-instructions.md (enhanced)
+├── instructions/ (NEW - modern approach)
+│   ├── README.md
+│   ├── global.instructions.md (applies to: **/*) 
+│   ├── powershell.instructions.md (applies to: **/*.ps1)
+│   ├── python.instructions.md (applies to: **/*.py)
+│   ├── docs.instructions.md (applies to: **/*.md)
+│   └── github-workflows.instructions.md (applies to: .github/workflows/**/*.yml)
+├── copilot-instructions.md (legacy - maintained for compatibility)
 ├── PULL_REQUEST_TEMPLATE.md
 └── workflows/
     ├── tests.yml
     ├── autonomous-pr-operations.yml
+    ├── auto-populate-pr-template.yml
     └── hydra-deploy.yml
-README.md (new)
+README.md
+COPILOT-SETUP-GUIDE.md (this file)
 ```
 
-### Testing ✅
+### Validation Checks ✅
+
+**YAML Frontmatter:**
+```bash
+# All instruction files have valid YAML frontmatter
+head -n 3 .github/instructions/*.instructions.md
+# All show valid applies_to patterns
+```
+
+**File Coverage:**
+- PowerShell files (`**/*.ps1`): ✅ Covered
+- Python files (`**/*.py`): ✅ Covered
+- Documentation (`**/*.md`): ✅ Covered
+- Workflows (`.github/workflows/**/*.yml`): ✅ Covered
+- All files (`**/*`): ✅ Global instructions apply
+
+**Testing:**
 - Smoke tests run (expected Windows-specific failures in Linux CI)
 - Python syntax validated
 - Documentation links verified
 - File structure confirmed
+- YAML frontmatter validated
 
 ## Benefits
 
 ### For the Project
 
 ✅ **Better Copilot Results**
-- Clear context enables more accurate code generation
+- File-scoped context enables more accurate code generation
+- Automatic application based on file type
 - Specialized agents handle focused tasks effectively
 - Task suitability prevents misassignment
 
@@ -259,9 +371,13 @@ README.md (new)
 
 ## Examples of Good Copilot Tasks
 
-Based on the task suitability guide:
+Based on the task suitability guide and automatic instruction application:
 
-### Documentation (Use @documentation-agent)
+### Documentation (Automatic + Manual)
+**Automatic:** Editing any `.md` file applies `docs.instructions.md`
+**Manual:** Can invoke `@documentation-agent` for specialized work
+
+Examples:
 ```
 - Update README.md with new installation method
 - Add troubleshooting section for common errors
@@ -269,7 +385,11 @@ Based on the task suitability guide:
 - Fix formatting inconsistencies in guides
 ```
 
-### PowerShell (Use @powershell-agent)
+### PowerShell (Automatic + Manual)
+**Automatic:** Editing any `.ps1` file applies `powershell.instructions.md`
+**Manual:** Can invoke `@powershell-agent` for complex tasks
+
+Examples:
 ```
 - Add logging to the CPU spike detection function
 - Fix error handling in Repair-SquirrelDeadlock
@@ -277,7 +397,11 @@ Based on the task suitability guide:
 - Improve retry logic in Monitor-Service.ps1
 ```
 
-### Python (Use @python-agent)
+### Python (Automatic + Manual)
+**Automatic:** Editing any `.py` file applies `python.instructions.md`
+**Manual:** Can invoke `@python-agent` for Hydra-specific work
+
+Examples:
 ```
 - Add memory usage tracking to profiling
 - Optimize weight calculation algorithm
@@ -290,10 +414,11 @@ Based on the task suitability guide:
 ### Keep Instructions Updated
 
 As the project evolves:
-1. Update copilot-instructions.md with new conventions
-2. Enhance agent profiles with new patterns
-3. Add examples of good/bad tasks from real issues
-4. Document new critical configurations
+1. **Update instruction files** in `.github/instructions/` with new conventions
+2. **Enhance agent profiles** with new patterns from real usage
+3. **Add examples** of good/bad tasks from actual issues
+4. **Document new** critical configurations as they emerge
+5. **Sync legacy file** optionally keep `.github/copilot-instructions.md` updated for backward compatibility
 
 ### Monitor Copilot Performance
 
@@ -303,24 +428,27 @@ Track metrics:
 - Test pass rates for Copilot contributions
 - Issue assignment accuracy
 
-### Refine Agent Profiles
+### Refine Instructions and Agents
 
 Based on usage:
-- Add frequently requested task patterns
-- Document common mistakes to avoid
-- Include more code examples
-- Update testing requirements
+- **Instructions:** Add new file patterns as needed (e.g., `**/*.bat` for batch files)
+- **Agent profiles:** Document common mistakes and patterns from real use
+- **Code examples:** Include more proven patterns from successful PRs
+- **Testing requirements:** Update as CI/CD evolves
 
 ## References
 
 ### GitHub Official Documentation
 - [Copilot Coding Agent](https://docs.github.com/en/copilot/tutorials/coding-agent)
 - [Best Practices](https://docs.github.com/en/copilot/tutorials/coding-agent/get-the-best-results)
+- [Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
 - [Onboarding Guide](https://github.blog/ai-and-ml/github-copilot/onboarding-your-ai-peer-programmer-setting-up-github-copilot-coding-agent-for-success/)
 
 ### Project Documentation
 - [README.md](README.md) - Main repository documentation
-- [copilot-instructions.md](.github/copilot-instructions.md) - AI agent guidelines
+- [.github/instructions/](.github/instructions/) - Modern file-scoped instructions
+- [.github/copilot-instructions.md](.github/copilot-instructions.md) - Legacy comprehensive guidelines
+- [.github/agents/](.github/agents/) - Custom agent profiles
 - [GIT-WORKFLOW.md](GIT-WORKFLOW.md) - Git and PR procedures
 - [SYSTEM-DASHBOARD.md](SYSTEM-DASHBOARD.md) - Architecture overview
 
@@ -329,6 +457,10 @@ Based on usage:
 This setup is considered successful because it:
 
 ✅ Follows all 8 GitHub best practices for Copilot integration
+✅ Implements modern file-scoped instructions with YAML frontmatter
+✅ Provides automatic context application based on file type
+✅ Maintains legacy format for backward compatibility
+✅ Creates ~1,900 lines of comprehensive guidance
 ✅ Provides clear task assignment guidelines
 ✅ Creates specialized agent profiles for focused work
 ✅ Maintains security and quality standards
