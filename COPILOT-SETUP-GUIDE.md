@@ -446,7 +446,7 @@ Based on usage:
 
 ### Project Documentation
 - [README.md](README.md) - Main repository documentation
-- [.github/instructions/](. github/instructions/) - Modern file-scoped instructions
+- [.github/instructions/](.github/instructions/) - Modern file-scoped instructions
 - [.github/copilot-instructions.md](.github/copilot-instructions.md) - Legacy comprehensive guidelines
 - [.github/agents/](.github/agents/) - Custom agent profiles
 - [GIT-WORKFLOW.md](GIT-WORKFLOW.md) - Git and PR procedures

@@ -100,10 +100,10 @@ Example usage: `[Agent: PowerShell] Add logging to CPU spike detection`
 
 ## 📚 Key References
 
-- [System Dashboard](SYSTEM-DASHBOARD.md) - Architecture overview
-- [Git Workflow](GIT-WORKFLOW.md) - Branch strategy, commit conventions
-- [Priority 1 Quickstart](PRIORITY-1-QUICKSTART.md) - Deployment guide
-- [Contributing Guide](CONTRIBUTING.md) - Contribution guidelines
+- [System Dashboard](../../SYSTEM-DASHBOARD.md) - Architecture overview
+- [Git Workflow](../../GIT-WORKFLOW.md) - Branch strategy, commit conventions
+- [Priority 1 Quickstart](../../PRIORITY-1-QUICKSTART.md) - Deployment guide
+- [Contributing Guide](../../CONTRIBUTING.md) - Contribution guidelines
 
 ## ⚠️ What NOT to Do
 

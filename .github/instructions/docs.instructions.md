@@ -94,7 +94,7 @@ ls -la
 **Bold** for strong emphasis
 *Italic* for light emphasis
 `code` for inline code
-[Link text](URL) for hyperlinks
+[Link text](https://example.com) for hyperlinks
 ```
 
 ## 🎨 Emoji Usage
@@ -205,9 +205,9 @@ Before submitting documentation changes:
 
 ### Linking to Other Docs
 ```markdown
-See [System Dashboard](SYSTEM-DASHBOARD.md) for architecture details.
-Reference the [Git Workflow](GIT-WORKFLOW.md) for PR guidelines.
-For custom agents, see [.github/agents/README.md](.github/agents/README.md).
+See [System Dashboard](../../SYSTEM-DASHBOARD.md) for architecture details.
+Reference the [Git Workflow](../../GIT-WORKFLOW.md) for PR guidelines.
+For custom agents, see [.github/agents/README.md](../agents/README.md).
 ```
 
 ### Command Examples
