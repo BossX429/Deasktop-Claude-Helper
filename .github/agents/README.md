@@ -44,11 +44,33 @@ Or in issue descriptions:
 [Agent: PowerShell] Fix error handling in Monitor-ClaudeHealth.ps1
 ```
 
+## Relationship with Copilot Instructions
+
+### Custom Agents vs. Instructions
+- **Custom Agents** (this directory): Specialized agent profiles referenced manually in issues/PRs
+- **Copilot Instructions** (`.github/instructions/`): Automatically applied based on file type
+
+### Complementary Systems
+- **Instructions** provide file-specific guidance (auto-applied when editing `.ps1`, `.py`, `.md`, etc.)
+- **Agents** provide task-specific expertise (manually invoked for specialized work)
+
+**Example workflow:**
+1. Copilot automatically uses `python.instructions.md` when editing Python files
+2. You can also invoke `@python-agent` for specialized Hydra algorithm work
+3. Both systems work together for optimal results
+
 ## Agent Development Guidelines
 
 All custom agents should:
-- Follow the project's coding conventions documented in `copilot-instructions.md`
+- Follow the project's coding conventions documented in `.github/instructions/`
+- Reference specific instruction files for technical details
 - Respect Hydra integration rules
 - Maintain compatibility with existing CI/CD workflows
 - Include appropriate testing guidance
 - Document their specialization area clearly
+
+## See Also
+
+- [`.github/instructions/`](../instructions/) - Automatic, file-based Copilot instructions
+- [`.github/copilot-instructions.md`](../copilot-instructions.md) - Legacy comprehensive instructions
+- [`COPILOT-SETUP-GUIDE.md`](../../COPILOT-SETUP-GUIDE.md) - Setup documentation
