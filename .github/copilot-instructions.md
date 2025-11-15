@@ -190,6 +190,43 @@ The repository is configured for **fully autonomous PR operations**:
 - You can still review/modify the PR before auto-merge happens
 - Branch protection ensures all checks pass before any merge
 
+## Custom Agents (Specialized Experts)
+
+This repository includes **custom agent profiles** for specialized tasks:
+
+### Available Agents
+
+1. **PowerShell Expert** (`.github/agents/powershell.agent.md`)
+   - Specializes in PowerShell script editing and optimization
+   - Use for: Monitor scripts, health checks, task scheduling
+   - Enforces: Error handling, logging conventions, idempotence
+
+2. **Python Expert** (`.github/agents/python.agent.md`)
+   - Specializes in Hydra system Python scripts
+   - Use for: Profiling, weighting, configuration generation
+   - Enforces: Type hints, performance targets, schema compliance
+
+3. **Documentation Expert** (`.github/agents/docs.agent.md`)
+   - Specializes in technical writing and Markdown formatting
+   - Use for: README files, guides, architecture docs
+   - Enforces: Style guide, formatting standards, clarity
+
+### When to Use Custom Agents
+
+- **Prefer custom agents** for domain-specific tasks (PowerShell editing, Python optimization, documentation)
+- **Use general agent** for cross-cutting concerns or when no specialized agent exists
+- **Delegate fully** - custom agents have expertise and will make appropriate changes
+- **Trust results** - custom agents follow project conventions and validation steps
+
+### How Custom Agents Work
+
+Custom agents are invoked automatically when GitHub Copilot detects work in their domain:
+- Editing `.ps1` files → PowerShell Expert may be suggested
+- Editing `.py` files → Python Expert may be suggested
+- Editing `.md` files → Documentation Expert may be suggested
+
+You can also explicitly request a custom agent in issue descriptions or PR comments.
+
 ## Critical DON'Ts (from HYDRA audit)
 
 - **Never** commit PAT tokens; use Windows credential manager or environment variables.
